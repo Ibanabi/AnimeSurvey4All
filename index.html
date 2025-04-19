@@ -1,0 +1,2391 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>You Are What You Watch: Survey</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="survey-container">
+        
+        <div class="form-section" id="section-1">
+            <h2>Basic Information</h2>
+            <label for="pseudonym">Pseudonym:</label>
+            <input type="text" id="pseudonym" name="pseudonym" required>
+
+            <label for="age">Age:</label>
+            <input type="number" id="age" name="age" required>
+
+            <label for="gender">Gender:</label>
+            <select id="gender" name="gender" required>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+            </select>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="watch-frequency">Watch Frequency:</label>
+            <select id="watch-frequency" name="watch-frequency" required>
+                <option value="Rare">Rare</option>
+                <option value="Occasional">Occasional</option>
+                <option value="Frequent">Frequent</option>
+                <option value="Daily">Daily</option>
+            </select>
+
+            <label for="year-level">Year Level:</label>
+            <select id="year-level" name="year-level" required>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">Graduate/Working</option>
+            </select>
+
+            <label for="ugt-questions">UGT Questions: (1-Strongly Disagree) (5-Strongly Agree)</label>
+            <div id="ugt-questions">
+                <p>1. I watch anime to escape from stress and the struggles of daily life.</p>
+                <select name="ugt-q1" required>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+
+                <p>2. I watch anime purely for entertainment purposes.</p>
+                <select name="ugt-q2" required>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+                <p>3. I watch anime to experience emotions I don't usually feel in real life.</p>
+                <select name="ugt-q3" required>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+                <p>4. Anime helps me relax and unwind after a long day.</p>
+                <select name="ugt-q4" required>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+                <p>5. I find comfort in the stories and characters portrayed in anime.</p>
+                <select name="ugt-q5" required>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+                <p>6. I use anime as a way to avoid boredom.</p>
+                <select name="ugt-q6" required>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+                <p>7. Watching anime keeps me from feeling lonely.</p>
+                <select name="ugt-q7" required>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+                <p>8. I enjoy watching anime with friends or family.</p>
+                <select name="ugt-q8" required>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+                <p>9. I like discussing anime with others online.</p>
+                <select name="ugt-q9" required>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+                <p>10. I feel more connected to online communities because of anime.</p>
+                <select name="ugt-q10" required>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+                <p>11. I watch anime to learn about Japanese culture or language.</p>
+                <select name="ugt-q11" required>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+                <p>12. Anime makes me be more creative or imaginative.</p>
+                <select name="ugt-q12" required>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+                <p>13. Anime influences the way I think about real-life issues.</p>
+                <select name="ugt-q13" required>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+                <p>14. I watch anime because it features characters I admire or like.</p>
+                <select name="ugt-q14" required>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+                <p>15. I often relate to the struggles of anime characters.</p>
+                <select name="ugt-q15" required>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+                <p>16. I feel motivated by the stories I see in anime.</p>
+                <select name="ugt-q16" required>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+                <p>17. I watch anime because of its unique art style.</p>
+                <select name="ugt-q17" required>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+                <p>18. Anime helps me cope with negative emotions.</p>
+                <select name="ugt-q18" required>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+                <p>19. I feel more emotionally engaged when watching anime compared to other media like kdrama.</p>
+                <select name="ugt-q19" required>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+                <p>20. I follow anime trends to stay updated with what others are watching.</p>
+                <select name="ugt-q20" required>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+                <p>21. I watch anime during specific moods (e.g., when I'm sad, happy, bored).</p>
+                <select name="ugt-q21" required>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+                <p>22. I feel a sense of belonging with other anime fans.</p>
+                <select name="ugt-q22" required>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+                <p>23. Anime plays an important role in my daily routine.</p>
+                <select name="ugt-q23" required>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+                <p>24. Lessons can be learned from watching anime, and I follow it.</p>
+                <select name="ugt-q24" required>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+                <p>25. I feel a deep emotional attachment to certain anime characters or series (makes you cry or angry when something happens bad).</p>
+                <select name="ugt-q25" required>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+            </div>
+
+            <button id="to-section-2">Next</button>
+        </div>
+
+        
+        <div class="form-section" id="section-2" style="display: none;">
+            <h2>Pick Your Favorite Genre(s)</h2>
+            <p>You can select up to 3 anime genre(s): Each has 25 questions</p>
+            <label><input type="checkbox" name="genre" value="Action" required> Action</label>
+            <label><input type="checkbox" name="genre" value="Adventure" required> Adventure</label>
+            <label><input type="checkbox" name="genre" value="Comedy" required> Comedy</label>
+            <label><input type="checkbox" name="genre" value="Drama" required> Drama</label>
+            <label><input type="checkbox" name="genre" value="Fantasy" required> Fantasy</label>
+            <label><input type="checkbox" name="genre" value="Horror" required> Horror</label>
+            <label><input type="checkbox" name="genre" value="Romance" required> Romance</label>
+            <label><input type="checkbox" name="genre" value="SciFi" required> Sci-Fi</label>
+
+            <button id="to-section-3">Next</button>
+        </div>
+
+        
+        <div class="form-section" id="section-3" style="display: none;">
+            <h2>BIG5:OCEAN - (1)Strongly Disagree - (5) Strongly Agree</h2>
+            <form id="genre-questions">
+                <div id="Action-Genre" style="display: none;">
+                    <h3>Action Genre</h3>
+
+                    
+                    <fieldset class="trait-section" id="action-openness">
+                        <legend>Openness to Experience - (Openminded, Imaginative, Curious)</legend>
+                        
+                        <div class="question">
+                            <label for="action-o-1">(1).I prefer protagonists who defy genre rules (e.g., chaotic anti-heroes) over classic hero’s journey archetypes.</label>
+                            <div>
+                                <label><input type="radio" name="action-o-1" value="1"> 1</label>
+                                <label><input type="radio" name="action-o-1" value="2"> 2</label>
+                                <label><input type="radio" name="action-o-1" value="3"> 3</label>
+                                <label><input type="radio" name="action-o-1" value="4"> 4</label>
+                                <label><input type="radio" name="action-o-1" value="5"> 5</label>
+                            </div>
+                            <label for="action-o-2">(2). Unexpected plot twists (e.g., sudden betrayals) make an anime more exciting.</label>
+                            <div>
+                                <label><input type="radio" name="action-o-2" value="1"> 1</label>
+                                <label><input type="radio" name="action-o-2" value="2"> 2</label>
+                                <label><input type="radio" name="action-o-2" value="3"> 3</label>
+                                <label><input type="radio" name="action-o-2" value="4"> 4</label>
+                                <label><input type="radio" name="action-o-2" value="5"> 5</label>
+                            </div>
+                            <label for="action-o-3">(3). Are you more drawn to bold, unconventional art styles?</label>
+                            <div class="question-image">
+                                <img src="https://m.media-amazon.com/images/M/MV5BNTYzNzUzN2EtMzdlZC00YjM3LWEzNjQtNzRmMzRmYWZhMjY3XkEyXkFqcGc@._V1_.jpg" style="max-width: 100%; height: auto;">
+                            </div>
+                            <div>
+                                <label><input type="radio" name="action-o-3" value="1"> 1</label>
+                                <label><input type="radio" name="action-o-3" value="2"> 2</label>
+                                <label><input type="radio" name="action-o-3" value="3"> 3</label>
+                                <label><input type="radio" name="action-o-3" value="4"> 4</label>
+                                <label><input type="radio" name="action-o-3" value="5"> 5</label>
+                            </div>
+                            <label for="action-o-4">(4). Are you all about diving into a rich, complex world’s history, or is "let’s just fight" enough for you (e.g,. Demon Slayer)?</label>
+                            <div>
+                                <label><input type="radio" name="action-o-4" value="1"> 1</label>
+                                <label><input type="radio" name="action-o-4" value="2"> 2</label>
+                                <label><input type="radio" name="action-o-4" value="3"> 3</label>
+                                <label><input type="radio" name="action-o-4" value="4"> 4</label>
+                                <label><input type="radio" name="action-o-4" value="5"> 5</label>
+                            </div>
+                            <label for="action-o-5">(5). Would you be open to watching an Action-packed anime blended with musical numbers?</label>
+                            <div>
+                                <label><input type="radio" name="action-o-5" value="1"> 1</label>
+                                <label><input type="radio" name="action-o-5" value="2"> 2</label>
+                                <label><input type="radio" name="action-o-5" value="3"> 3</label>
+                                <label><input type="radio" name="action-o-5" value="4"> 4</label>
+                                <label><input type="radio" name="action-o-5" value="5"> 5</label>
+                            </div>
+                            
+                        </div>
+                       
+                    </fieldset>
+
+                    
+                    <fieldset class="trait-section" id="action-conscientiousness">
+                        <legend>Conscientiousness-(Disciplined, Organized, Dependable)</legend>
+                        
+                        <div class="question">
+                            <label for="action-c-1">(1). I appreciate action anime where battles are methodically planned.</label>
+                            <div>
+                                <label><input type="radio" name="action-c-1" value="1"> 1</label>
+                                <label><input type="radio" name="action-c-1" value="2"> 2</label>
+                                <label><input type="radio" name="action-c-1" value="3"> 3</label>
+                                <label><input type="radio" name="action-c-1" value="4"> 4</label>
+                                <label><input type="radio" name="action-c-1" value="5"> 5</label>
+                            </div>
+                            <label for="action-c-2">(2). I admire protagonists who meticulously plan their moves (e.g., Roy Mustang) over chaotic fighters.</label>
+                            <div class="question-image">
+                                <img src="https://images3.alphacoders.com/107/thumb-1920-107329.jpg" style="max-width: 100%; height: auto;">
+                            </div>
+                            <div>
+                                <label><input type="radio" name="action-c-2" value="1"> 1</label>
+                                <label><input type="radio" name="action-c-2" value="2"> 2</label>
+                                <label><input type="radio" name="action-c-2" value="3"> 3</label>
+                                <label><input type="radio" name="action-c-2" value="4"> 4</label>
+                                <label><input type="radio" name="action-c-2" value="5"> 5</label>
+                            </div>
+                            <label for="action-c-3">(3). Slow, methodical plots are worth the wait for a satisfying payoff.</label>
+                            <div>
+                                <label><input type="radio" name="action-c-3" value="1"> 1</label>
+                                <label><input type="radio" name="action-c-3" value="2"> 2</label>
+                                <label><input type="radio" name="action-c-3" value="3"> 3</label>
+                                <label><input type="radio" name="action-c-3" value="4"> 4</label>
+                                <label><input type="radio" name="action-c-3" value="5"> 5</label>
+                            </div>
+                            <label for="action-c-4">(4). I prefer clear "good vs. evil" over ambiguous and mysterious plotlines.</label>
+                            <div>
+                                <label><input type="radio" name="action-c-4" value="1"> 1</label>
+                                <label><input type="radio" name="action-c-4" value="2"> 2</label>
+                                <label><input type="radio" name="action-c-4" value="3"> 3</label>
+                                <label><input type="radio" name="action-c-4" value="4"> 4</label>
+                                <label><input type="radio" name="action-c-4" value="5"> 5</label>
+                            </div>
+                            <label for="action-c-5">(5). I’d rather face uncertain outcomes than the cliche "hero will win".</label>
+                            <div>
+                                <label><input type="radio" name="action-c-5" value="1"> 1</label>
+                                <label><input type="radio" name="action-c-5" value="2"> 2</label>
+                                <label><input type="radio" name="action-c-5" value="3"> 3</label>
+                                <label><input type="radio" name="action-c-5" value="4"> 4</label>
+                                <label><input type="radio" name="action-c-5" value="5"> 5</label>
+                            </div>
+                           
+                        </div>
+                        
+                    </fieldset>
+
+                    
+                    <fieldset class="trait-section" id="action-extraversion">
+                        <legend>Extraversion - (Adrenaline, Social)</legend>
+                       
+                        <div class="question">
+                            <label for="action-e-1">(1). I like squad banters more than lone-wolf protagonists.</label>
+                            <div>
+                                <label><input type="radio" name="action-e-1" value="1"> 1</label>
+                                <label><input type="radio" name="action-e-1" value="2"> 2</label>
+                                <label><input type="radio" name="action-e-1" value="3"> 3</label>
+                                <label><input type="radio" name="action-e-1" value="4"> 4</label>
+                                <label><input type="radio" name="action-e-1" value="5"> 5</label>
+                            </div>
+                            <label for="action-e-2">(2). Slow-paced action is something I would like</label>
+                            <div>
+                                <label><input type="radio" name="action-e-2" value="1"> 1</label>
+                                <label><input type="radio" name="action-e-2" value="2"> 2</label>
+                                <label><input type="radio" name="action-e-2" value="3"> 3</label>
+                                <label><input type="radio" name="action-e-2" value="4"> 4</label>
+                                <label><input type="radio" name="action-e-2" value="5"> 5</label>
+                            </div>
+                            <label for="action-e-3">(3). Over-the-top power systems like Dragon Ball is something I can handle</label>
+                            <div class="question-image">
+                                <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/c98559f7-a363-432c-be55-7b2b93b2d655/de0t043-b7384060-a08f-4175-92fb-2abe847d9dd4.png/v1/fill/w_1280,h_720,q_80,strp/my_power_level_calculating_system_example___goku_by_enderdragneel17_de0t043-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NzIwIiwicGF0aCI6IlwvZlwvYzk4NTU5ZjctYTM2My00MzJjLWJlNTUtN2IyYjkzYjJkNjU1XC9kZTB0MDQzLWI3Mzg0MDYwLWEwOGYtNDE3NS05MmZiLTJhYmU4NDdkOWRkNC5wbmciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.HIfo7wAM861huywj0uKKpkNTMNXrkKIprbmzl_gNS7s" style="max-width: 100%; height: auto;">
+                            </div>
+                            <div>
+                                <label><input type="radio" name="action-e-3" value="1"> 1</label>
+                                <label><input type="radio" name="action-e-3" value="2"> 2</label>
+                                <label><input type="radio" name="action-e-3" value="3"> 3</label>
+                                <label><input type="radio" name="action-e-3" value="4"> 4</label>
+                                <label><input type="radio" name="action-e-3" value="5"> 5</label>
+                            </div>
+                            <label for="action-e-4">(4). Flamboyant, talkative villains (e.g., FMAB's Envy) make fights more entertaining.</label>
+                            <div class="question-image">
+                                <img src="https://static1.cbrimages.com/wordpress/wp-content/uploads/2020/03/Best-Worst-Outfits-envy-2.jpg" style="max-width: 100%; height: auto;">
+                            </div>
+                            <div>
+                                <label><input type="radio" name="action-e-4" value="1"> 1</label>
+                                <label><input type="radio" name="action-e-4" value="2"> 2</label>
+                                <label><input type="radio" name="action-e-4" value="3"> 3</label>
+                                <label><input type="radio" name="action-e-4" value="4"> 4</label>
+                                <label><input type="radio" name="action-e-4" value="5"> 5</label>
+                            </div>
+                            <label for="action-e-5">(5). If I were the protagonist, I'd be a lone wolf  </label>
+                            <div>
+                                <label><input type="radio" name="action-e-5" value="1"> 1</label>
+                                <label><input type="radio" name="action-e-5" value="2"> 2</label>
+                                <label><input type="radio" name="action-e-5" value="3"> 3</label>
+                                <label><input type="radio" name="action-e-5" value="4"> 4</label>
+                                <label><input type="radio" name="action-e-5" value="5"> 5</label>
+                            </div>
+                        </div>
+                        
+                    </fieldset>
+
+                   
+                    <fieldset class="trait-section" id="action-agreeableness">
+                        <legend>Agreeableness - (Teamwork, Empathy, Harmony)</legend>
+                        
+                        <div class="question">
+                            <label for="action-a-1">1. I value action anime that emphasizes teamwork and camaraderie.</label>
+                            <div>
+                                <label><input type="radio" name="action-a-1" value="1"> 1</label>
+                                <label><input type="radio" name="action-a-1" value="2"> 2</label>
+                                <label><input type="radio" name="action-a-1" value="3"> 3</label>
+                                <label><input type="radio" name="action-a-1" value="4"> 4</label>
+                                <label><input type="radio" name="action-a-1" value="5"> 5</label>
+                            </div>
+                            <label for="action-a-2">(2). Morally gray characters (e.g., Death Note's Light Yagami) make stories richer, not confusing.</label>
+                            <div class="question-image">
+                                <img src="https://static1.srcdn.com/wordpress/wp-content/uploads/2023/07/death-note-light-in-the-rain.jpg" style="max-width: 100%; height: auto;">
+                            </div>
+                            <div>
+                                <label><input type="radio" name="action-a-2" value="1"> 1</label>
+                                <label><input type="radio" name="action-a-2" value="2"> 2</label>
+                                <label><input type="radio" name="action-a-2" value="3"> 3</label>
+                                <label><input type="radio" name="action-a-2" value="4"> 4</label>
+                                <label><input type="radio" name="action-a-2" value="5"> 5</label>
+                            </div>
+                            <label for="action-a-3">(3). I’d support a redeemed villain joining the hero’s side</label>
+                            <div>
+                                <label><input type="radio" name="action-a-3" value="1"> 1</label>
+                                <label><input type="radio" name="action-a-3" value="2"> 2</label>
+                                <label><input type="radio" name="action-a-3" value="3"> 3</label>
+                                <label><input type="radio" name="action-a-3" value="4"> 4</label>
+                                <label><input type="radio" name="action-a-3" value="5"> 5</label>
+                            </div>
+                            <label for="action-a-4">(4). I root harder for heroes fighting for others (e.g., Naruto's "protect my friends") than self-interested ones.</label>
+                            <div class="question-image">
+                                <img src="https://static1.cbrimages.com/wordpress/wp-content/uploads/2020/05/Naruto-Kakashi-Sasuke-Sakura-Team-7.jpg" style="max-width: 100%; height: auto;">
+                            </div>
+                            <div>
+                                <label><input type="radio" name="action-a-4" value="1"> 1</label>
+                                <label><input type="radio" name="action-a-4" value="2"> 2</label>
+                                <label><input type="radio" name="action-a-4" value="3"> 3</label>
+                                <label><input type="radio" name="action-a-4" value="4"> 4</label>
+                                <label><input type="radio" name="action-a-4" value="5"> 5</label>
+                            </div>
+                            <label for="action-a-5">(5). Tragic hero sacrifices for the greater good add emotional weight to a story.</label>
+                            <div>
+                                <label><input type="radio" name="action-a-5" value="1"> 1</label>
+                                <label><input type="radio" name="action-a-5" value="2"> 2</label>
+                                <label><input type="radio" name="action-a-5" value="3"> 3</label>
+                                <label><input type="radio" name="action-a-5" value="4"> 4</label>
+                                <label><input type="radio" name="action-a-5" value="5"> 5</label>
+                            </div>
+                        </div>
+                        
+                        
+                    </fieldset>
+
+                    
+                    <fieldset class="trait-section" id="action-neuroticism">
+                        <legend>Neuroticism - (Darker, Emotionally Intense)</legend>
+                        
+                        <div class="question">
+                            <label for="action-n-1">(1). Dark themes like trauma or existential dread (e.g., Goblin Slayer ) deepen an Action anime for me.</label>
+                            <div class="question-image">
+                                <img src="https://gifdb.com/images/high/goblin-slayer-choking-goblin-uz4x3i5cyuyuf4ss.gif" style="max-width: 100%; height: auto;">
+                            </div>
+                            <div>
+                                <label><input type="radio" name="action-n-1" value="1"> 1</label>
+                                <label><input type="radio" name="action-n-1" value="2"> 2</label>
+                                <label><input type="radio" name="action-n-1" value="3"> 3</label>
+                                <label><input type="radio" name="action-n-1" value="4"> 4</label>
+                                <label><input type="radio" name="action-n-1" value="5"> 5</label>
+                            </div>
+                            <label for="action-n-2">(2). The threat of "the world ending" feels thrilling, not stressful.</label>
+                            <div>
+                                <label><input type="radio" name="action-n-2" value="1"> 1</label>
+                                <label><input type="radio" name="action-n-2" value="2"> 2</label>
+                                <label><input type="radio" name="action-n-2" value="3"> 3</label>
+                                <label><input type="radio" name="action-n-2" value="4"> 4</label>
+                                <label><input type="radio" name="action-n-2" value="5"> 5</label>
+                            </div>
+                            <label for="action-n-3">(3). Plots where victory comes at a personal cost (e.g., Attack on Titan's body count) resonate with me.</label>
+                            <div class="question-image">
+                                <img src="https://i.pinimg.com/originals/b7/7f/09/b77f095f60272c577586bafe2b46958d.gif" style="max-width: 100%; height: auto;">
+                            </div>
+                            <div>
+                                <label><input type="radio" name="action-n-3" value="1"> 1</label>
+                                <label><input type="radio" name="action-n-3" value="2"> 2</label>
+                                <label><input type="radio" name="action-n-3" value="3"> 3</label>
+                                <label><input type="radio" name="action-n-3" value="4"> 4</label>
+                                <label><input type="radio" name="action-n-3" value="5"> 5</label>
+                            </div>
+                            <label for="action-n-4">(4). Terrifyingly competent villains (e.g., Vinland Saga's Askeladd) make the story more compelling.</label>
+                            <div>
+                                <label><input type="radio" name="action-n-4" value="1"> 1</label>
+                                <label><input type="radio" name="action-n-4" value="2"> 2</label>
+                                <label><input type="radio" name="action-n-4" value="3"> 3</label>
+                                <label><input type="radio" name="action-n-4" value="4"> 4</label>
+                                <label><input type="radio" name="action-n-4" value="5"> 5</label>
+                            </div>
+                            <label for="action-n-5">(5). I can handle heroes losing everything before triumphing, even if it’s emotionally brutal and leads to loved characters' deaths.</label>
+                            <div>
+                                <label><input type="radio" name="action-n-5" value="1"> 1</label>
+                                <label><input type="radio" name="action-n-5" value="2"> 2</label>
+                                <label><input type="radio" name="action-n-5" value="3"> 3</label>
+                                <label><input type="radio" name="action-n-5" value="4"> 4</label>
+                                <label><input type="radio" name="action-n-5" value="5"> 5</label>
+                            </div>
+                        </div>
+                        
+                    </fieldset>
+
+                    
+                    <p>Why do you like the Action genre?</p>
+                    <textarea name="action-reason" rows="3"></textarea>
+                </div>
+
+                
+                <div id="Adventure-Genre" style="display: none;">
+                    <h3>Adventure Genre</h3>
+                    
+                    <fieldset class="trait-section" id="adventure-openness">
+                        <legend>Openness to Experience - (Creativity, Exploration)</legend>
+                        <div class="question">
+                            <label for="adventure-o-1">1. I prefer protagonists exploring unmapped territories (e.g., Made in Abyss ) over mapped and explored places.</label>
+                            <div>
+                                <label><input type="radio" name="adventure-o-1" value="1"> 1</label>
+                                <label><input type="radio" name="adventure-o-1" value="2"> 2</label>
+                                <label><input type="radio" name="adventure-o-1" value="3"> 3</label>
+                                <label><input type="radio" name="adventure-o-1" value="4"> 4</label>
+                                <label><input type="radio" name="adventure-o-1" value="5"> 5</label>
+                            </div>
+                            <label for="adventure-o-2">(2). If it's an art style I am not used to, then it's not for me</label>
+                            <div>
+                                <label><input type="radio" name="adventure-o-2" value="1"> 1</label>
+                                <label><input type="radio" name="adventure-o-2" value="2"> 2</label>
+                                <label><input type="radio" name="adventure-o-2" value="3"> 3</label>
+                                <label><input type="radio" name="adventure-o-2" value="4"> 4</label>
+                                <label><input type="radio" name="adventure-o-2" value="5"> 5</label>
+                            </div>
+                            <label for="adventure-o-3">(3). The world's setting is important to me</label>
+                            <div>
+                                <label><input type="radio" name="adventure-o-3" value="1"> 1</label>
+                                <label><input type="radio" name="adventure-o-3" value="2"> 2</label>
+                                <label><input type="radio" name="adventure-o-3" value="3"> 3</label>
+                                <label><input type="radio" name="adventure-o-3" value="4"> 4</label>
+                                <label><input type="radio" name="adventure-o-3" value="5"> 5</label>
+                            </div>
+                            <label for="adventure-o-4">(4). I like adventure anime where the character(s) are always on the road, traveling to their next goal (eg,. Heavenly Delusion)</label>
+                            <div class="question-image">
+                                <img src="https://media.tenor.com/yrq2x__E6_YAAAAM/heavenly-delusion-kiruko.gif" style="max-width: 100%; height: auto;">
+                            </div>
+                            <div>
+                                <label><input type="radio" name="adventure-o-4" value="1"> 1</label>
+                                <label><input type="radio" name="adventure-o-4" value="2"> 2</label>
+                                <label><input type="radio" name="adventure-o-4" value="3"> 3</label>
+                                <label><input type="radio" name="adventure-o-4" value="4"> 4</label>
+                                <label><input type="radio" name="adventure-o-4" value="5"> 5</label>
+                            </div>
+                            <label for="adventure-o-5">(5). I prefer new plots over cliche treasure hunts.</label>
+                            <div>
+                                <label><input type="radio" name="adventure-o-5" value="1"> 1</label>
+                                <label><input type="radio" name="adventure-o-5" value="2"> 2</label>
+                                <label><input type="radio" name="adventure-o-5" value="3"> 3</label>
+                                <label><input type="radio" name="adventure-o-5" value="4"> 4</label>
+                                <label><input type="radio" name="adventure-o-5" value="5"> 5</label>
+                            </div>
+                        </div>
+                    </fieldset>
+                    <fieldset class="trait-section" id="adventure-conscientiousness">
+                        <legend>Conscientiousness-(Planning, Clear Goals, and Logical Stakes)</legend>
+                        
+                        <div class="question">
+                            <label for="adventure-c-1">(1). I prefer adventures where the characters have a clear set goal in mind rather than going with the flow.</label>
+                            <div>
+                                <label><input type="radio" name="adventure-c-1" value="1"> 1</label>
+                                <label><input type="radio" name="adventure-c-1" value="2"> 2</label>
+                                <label><input type="radio" name="adventure-c-1" value="3"> 3</label>
+                                <label><input type="radio" name="adventure-c-1" value="4"> 4</label>
+                                <label><input type="radio" name="adventure-c-1" value="5"> 5</label>
+                            </div>
+                            <label for="adventure-c-2">(2). Clear rules or goals (e.g., Hunter x Hunter's Hunter Exam) make the adventure more satisfying.</label>
+                            <div class="question-image">
+                                <img src="https://i.pinimg.com/originals/ee/26/d2/ee26d2a50976913faa00078a9c283334.gif" style="max-width: 100%; height: auto;">
+                            </div>
+                            <div>
+                                <label><input type="radio" name="adventure-c-2" value="1"> 1</label>
+                                <label><input type="radio" name="adventure-c-2" value="2"> 2</label>
+                                <label><input type="radio" name="adventure-c-2" value="3"> 3</label>
+                                <label><input type="radio" name="adventure-c-2" value="4"> 4</label>
+                                <label><input type="radio" name="adventure-c-2" value="5"> 5</label>
+                            </div>
+                            <label for="adventure-c-3">(3).  I enjoy seeing characters stick to their morals and mission, even when the adventure tempts them to take the easy way out.</label>
+                            <div>
+                                <label><input type="radio" name="adventure-c-3" value="1"> 1</label>
+                                <label><input type="radio" name="adventure-c-3" value="2"> 2</label>
+                                <label><input type="radio" name="adventure-c-3" value="3"> 3</label>
+                                <label><input type="radio" name="adventure-c-3" value="4"> 4</label>
+                                <label><input type="radio" name="adventure-c-3" value="5"> 5</label>
+                            </div>
+                            <label for="adventure-c-4">(4). My favorite adventurers are the ones who grow more disciplined over time, even if they start out reckless.</label>
+                            <div>
+                                <label><input type="radio" name="adventure-c-4" value="1"> 1</label>
+                                <label><input type="radio" name="adventure-c-4" value="2"> 2</label>
+                                <label><input type="radio" name="adventure-c-4" value="3"> 3</label>
+                                <label><input type="radio" name="adventure-c-4" value="4"> 4</label>
+                                <label><input type="radio" name="adventure-c-4" value="5"> 5</label>
+                            </div>
+                            <label for="adventure-c-5">(5). I notice and admire consistency in characters — like how they train regularly, stay organized, or always take responsibility for their choices (eg., Black Clover's Asta).</label>
+                            <div class="question-image">
+                                <img src="https://gifdb.com/images/high/asta-staria-work-out-l9gkdugl77xotdp3.gif" style="max-width: 100%; height: auto;">
+                            </div>
+                            <div>
+                                <label><input type="radio" name="adventure-c-5" value="1"> 1</label>
+                                <label><input type="radio" name="adventure-c-5" value="2"> 2</label>
+                                <label><input type="radio" name="adventure-c-5" value="3"> 3</label>
+                                <label><input type="radio" name="adventure-c-5" value="4"> 4</label>
+                                <label><input type="radio" name="adventure-c-5" value="5"> 5</label>
+                            </div>
+                    </fieldset>
+                    <fieldset class="trait-section" id="adventure-extraversion">
+                        <legend>Extraversion - (Social Bonds, Discovery)</legend>
+                        
+                        <div class="question">
+                            <label for="adventure-e-1">(1). Group adventures (e.g., Nanatsu No Taizai (Seven Deadly Sins)) is what I vibe with than solo travels</label>
+                            <div class="question-image">
+                                <img src="https://i.redd.it/w42y39c3eu1b1.gif" style="max-width: 100%; height: auto;">
+                            </div>
+                            <div>
+                                <label><input type="radio" name="adventure-e-1" value="1"> 1</label>
+                                <label><input type="radio" name="adventure-e-1" value="2"> 2</label>
+                                <label><input type="radio" name="adventure-e-1" value="3"> 3</label>
+                                <label><input type="radio" name="adventure-e-1" value="4"> 4</label>
+                                <label><input type="radio" name="adventure-e-1" value="5"> 5</label>
+                            </div>
+                            <label for="adventure-e-2">(2). Lighthearted moments make the journey worth it</label>
+                            <div>
+                                <label><input type="radio" name="adventure-e-2" value="1"> 1</label>
+                                <label><input type="radio" name="adventure-e-2" value="2"> 2</label>
+                                <label><input type="radio" name="adventure-e-2" value="3"> 3</label>
+                                <label><input type="radio" name="adventure-e-2" value="4"> 4</label>
+                                <label><input type="radio" name="adventure-e-2" value="5"> 5</label>
+                            </div>
+                            <label for="adventure-e-3">(3). Would you get tired if and when there's a new character introduced every time. </label>
+                            <div>
+                                <label><input type="radio" name="adventure-e-3" value="1"> 1</label>
+                                <label><input type="radio" name="adventure-e-3" value="2"> 2</label>
+                                <label><input type="radio" name="adventure-e-3" value="3"> 3</label>
+                                <label><input type="radio" name="adventure-e-3" value="4"> 4</label>
+                                <label><input type="radio" name="adventure-e-3" value="5"> 5</label>
+                            </div>
+                            <label for="adventure-e-4">(4). I'd do well if I become the leader of the group.</label>
+                            <div>
+                                <label><input type="radio" name="adventure-e-4" value="1"> 1</label>
+                                <label><input type="radio" name="adventure-e-4" value="2"> 2</label>
+                                <label><input type="radio" name="adventure-e-4" value="3"> 3</label>
+                                <label><input type="radio" name="adventure-e-4" value="4"> 4</label>
+                                <label><input type="radio" name="adventure-e-4" value="5"> 5</label>
+                            </div>
+                            <label for="adventure-e-5">(5). Even if the journey is long, I will not get homesick. </label>
+                            <div>
+                                <label><input type="radio" name="adventure-e-5" value="1"> 1</label>
+                                <label><input type="radio" name="adventure-e-5" value="2"> 2</label>
+                                <label><input type="radio" name="adventure-e-5" value="3"> 3</label>
+                                <label><input type="radio" name="adventure-e-5" value="4"> 4</label>
+                                <label><input type="radio" name="adventure-e-5" value="5"> 5</label>
+                            </div>
+                        </div>
+                        
+                    </fieldset>
+                    <fieldset class="trait-section" id="adventure-agreeableness">
+                        <legend>Agreeableness - (Teamwork, Empathy, Harmony)</legend>
+                        
+                        <div class="question">
+                            <label for="adventure-a-1">(1). I root for heroes motivated by friendship or protecting others (e.g., One Piece's Luffy).</label>
+                            <div class="question-image">
+                                <img src="https://www.icegif.com/wp-content/uploads/2022/09/icegif-803.gif" style="max-width: 100%; height: auto;">
+                            </div>
+                            <div>
+                                <label><input type="radio" name="adventure-a-1" value="1"> 1</label>
+                                <label><input type="radio" name="adventure-a-1" value="2"> 2</label>
+                                <label><input type="radio" name="adventure-a-1" value="3"> 3</label>
+                                <label><input type="radio" name="adventure-a-1" value="4"> 4</label>
+                                <label><input type="radio" name="adventure-a-1" value="5"> 5</label>
+                            </div>
+                            <label for="adventure-a-2">(2). If a former enemy joins my group, I would accept him as long as the others agree (e.g., Fairy Tail's Gajeel)</label>
+                            <div class="question-image">
+                                <img src="https://i.pinimg.com/originals/df/b5/95/dfb595fc48c535fe7656b4db81857a73.gif" style="max-width: 100%; height: auto;">
+                            </div>
+                            <div>
+                                <label><input type="radio" name="adventure-a-2" value="1"> 1</label>
+                                <label><input type="radio" name="adventure-a-2" value="2"> 2</label>
+                                <label><input type="radio" name="adventure-a-2" value="3"> 3</label>
+                                <label><input type="radio" name="adventure-a-2" value="4"> 4</label>
+                                <label><input type="radio" name="adventure-a-2" value="5"> 5</label>
+                            </div>
+                            <label for="adventure-a-3">(3). If a friend asks you to do something morally questionable, you will do it as long as it you finish your goal.</label>
+                            <div>
+                                <label><input type="radio" name="adventure-a-3" value="1"> 1</label>
+                                <label><input type="radio" name="adventure-a-3" value="2"> 2</label>
+                                <label><input type="radio" name="adventure-a-3" value="3"> 3</label>
+                                <label><input type="radio" name="adventure-a-3" value="4"> 4</label>
+                                <label><input type="radio" name="adventure-a-3" value="5"> 5</label>
+                            </div>
+                            <label for="adventure-a-4">(4). I like characters who treat others with respect and kindness.</label>
+                            <div>
+                                <label><input type="radio" name="adventure-a-4" value="1"> 1</label>
+                                <label><input type="radio" name="adventure-a-4" value="2"> 2</label>
+                                <label><input type="radio" name="adventure-a-4" value="3"> 3</label>
+                                <label><input type="radio" name="adventure-a-4" value="4"> 4</label>
+                                <label><input type="radio" name="adventure-a-4" value="5"> 5</label>
+                            </div>
+                            <label for="adventure-a-5">(5). You will help every single one you meet on the road that asks for help even though it can be taxing to you and your team.</label>
+                            <div>
+                                <label><input type="radio" name="adventure-a-5" value="1"> 1</label>
+                                <label><input type="radio" name="adventure-a-5" value="2"> 2</label>
+                                <label><input type="radio" name="adventure-a-5" value="3"> 3</label>
+                                <label><input type="radio" name="adventure-a-5" value="4"> 4</label>
+                                <label><input type="radio" name="adventure-a-5" value="5"> 5</label>
+                            </div>
+                        </div>
+                    </fieldset>
+                    <fieldset class="trait-section" id="adventure-neuroticism">
+                        <legend>Neuroticism - (Darker, Emotionally Intense)</legend>
+                        
+                        <div class="question">
+                            <label for="adventure-n-1">(1). Survival-focused adventures (e.g., Sword Art Online's death games) thrill me despite the stress.</label>
+                            <div class="question-image">
+                                <img src="https://i.pinimg.com/originals/26/fd/49/26fd49fa54b204fbaf6301efefd53ae2.gif" style="max-width: 100%; height: auto;">
+                            </div>
+                            <div>
+                                <label><input type="radio" name="adventure-n-1" value="1"> 1</label>
+                                <label><input type="radio" name="adventure-n-1" value="2"> 2</label>
+                                <label><input type="radio" name="adventure-n-1" value="3"> 3</label>
+                                <label><input type="radio" name="adventure-n-1" value="4"> 4</label>
+                                <label><input type="radio" name="adventure-n-1" value="5"> 5</label>
+                            </div>
+                            <label for="adventure-n-2">(2). If your team fell into an enemy trap, you expect the worst-case scenario.</label>
+                            <div>
+                                <label><input type="radio" name="adventure-n-2" value="1"> 1</label>
+                                <label><input type="radio" name="adventure-n-2" value="2"> 2</label>
+                                <label><input type="radio" name="adventure-n-2" value="3"> 3</label>
+                                <label><input type="radio" name="adventure-n-2" value="4"> 4</label>
+                                <label><input type="radio" name="adventure-n-2" value="5"> 5</label>
+                            </div>
+                            <label for="adventure-n-3">(3). If your favorite characters were caught and brutalized by the enemy, you would still watch it to the end.</label>
+                            <div class="question-image">
+                                <img src="https://i.pinimg.com/originals/5f/2e/0f/5f2e0f817ebe2674f674fca0f098608a.gif" style="max-width: 100%; height: auto;">
+                            </div>
+                            <div>
+                                <label><input type="radio" name="adventure-n-3" value="1"> 1</label>
+                                <label><input type="radio" name="adventure-n-3" value="2"> 2</label>
+                                <label><input type="radio" name="adventure-n-3" value="3"> 3</label>
+                                <label><input type="radio" name="adventure-n-3" value="4"> 4</label>
+                                <label><input type="radio" name="adventure-n-3" value="5"> 5</label>
+                            </div>
+                            <label for="adventure-n-4">(4). Intense moments can be a turn-off</label>
+                            <div>
+                                <label><input type="radio" name="adventure-n-4" value="1"> 1</label>
+                                <label><input type="radio" name="adventure-n-4" value="2"> 2</label>
+                                <label><input type="radio" name="adventure-n-4" value="3"> 3</label>
+                                <label><input type="radio" name="adventure-n-4" value="4"> 4</label>
+                                <label><input type="radio" name="adventure-n-4" value="5"> 5</label>
+                            </div>
+                            <label for="adventure-n-5">(5). No matter what the characters you love will prevail in the end. </label>
+                            <div>
+                                <label><input type="radio" name="adventure-n-5" value="1"> 1</label>
+                                <label><input type="radio" name="adventure-n-5" value="2"> 2</label>
+                                <label><input type="radio" name="adventure-n-5" value="3"> 3</label>
+                                <label><input type="radio" name="adventure-n-5" value="4"> 4</label>
+                                <label><input type="radio" name="adventure-n-5" value="5"> 5</label>
+                            </div>
+                        </div>
+                        
+                    </fieldset>
+                        
+                    
+                    <p>Why do you like the Adventure genre?</p>
+                    <textarea name="adventure-reason" rows="3"></textarea>
+                </div>
+
+                
+                <div id="Comedy-Genre" style="display: none;">
+                    <h3>Comedy Genre</h3>
+                   
+                    <fieldset class="trait-section" id="comedy-openness">
+                        <legend>Openness to Experience - (Different Types of Humor, Satire, Parody)</legend>
+                        <div class="question">
+                            <label for="comedy-o-1">(1). Comedy anime should be fused with other types of genre.</label>
+                            <div>
+                                <label><input type="radio" name="comedy-o-1" value="1"> 1</label>
+                                <label><input type="radio" name="comedy-o-1" value="2"> 2</label>
+                                <label><input type="radio" name="comedy-o-1" value="3"> 3</label>
+                                <label><input type="radio" name="comedy-o-1" value="4"> 4</label>
+                                <label><input type="radio" name="comedy-o-1" value="5"> 5</label>
+                            </div>
+                            <label for="comedy-o-2">(2). I find surreal or dry humor funnier (e.g., K-On!'s random cutaways) than slapstick.</label>
+                            <div>
+                                <label><input type="radio" name="comedy-o-2" value="1"> 1</label>
+                                <label><input type="radio" name="comedy-o-2" value="2"> 2</label>
+                                <label><input type="radio" name="comedy-o-2" value="3"> 3</label>
+                                <label><input type="radio" name="comedy-o-2" value="4"> 4</label>
+                                <label><input type="radio" name="comedy-o-2" value="5"> 5</label>
+                            </div>
+                            <label for="comedy-o-3">(3). I enjoy adult jokes in anime. </label>
+                            <div>
+                                <label><input type="radio" name="comedy-o-3" value="1"> 1</label>
+                                <label><input type="radio" name="comedy-o-3" value="2"> 2</label>
+                                <label><input type="radio" name="comedy-o-3" value="3"> 3</label>
+                                <label><input type="radio" name="comedy-o-3" value="4"> 4</label>
+                                <label><input type="radio" name="comedy-o-3" value="5"> 5</label>
+                            </div>
+                            <label for="comedy-o-4">(4). You like it when the show breaks the 4th wall.</label>
+                            <div>
+                                <label><input type="radio" name="comedy-o-4" value="1"> 1</label>
+                                <label><input type="radio" name="comedy-o-4" value="2"> 2</label>
+                                <label><input type="radio" name="comedy-o-4" value="3"> 3</label>
+                                <label><input type="radio" name="comedy-o-4" value="4"> 4</label>
+                                <label><input type="radio" name="comedy-o-4" value="5"> 5</label>
+                            </div>
+                            <label for="comedy-o-5">(5). You will watch a parody anime that makes fun of famous tropes (e.g., One Punch Man)</label>
+                            <div class="question-image">
+                                <img src="https://www.icegif.com/wp-content/uploads/2023/02/icegif-134.gif" style="max-width: 100%; height: auto;">
+                            </div>
+                            <div>
+                                <label><input type="radio" name="comedy-o-5" value="1"> 1</label>
+                                <label><input type="radio" name="comedy-o-5" value="2"> 2</label>
+                                <label><input type="radio" name="comedy-o-5" value="3"> 3</label>
+                                <label><input type="radio" name="comedy-o-5" value="4"> 4</label>
+                                <label><input type="radio" name="comedy-o-5" value="5"> 5</label>
+                            </div>
+                        </div>
+                    </fieldset>
+                    <fieldset class="trait-section" id="comedy-conscientiousness">
+                        <legend>Conscientiousness-(Consistency, Balance)</legend>
+                       
+                        <div class="question">
+                            <label for="comedy-c-1">(1). You find it corny if the joke is used over and over again in the show, except when it's a favourite character making the joke.</label>
+                            <div>
+                                <label><input type="radio" name="comedy-c-1" value="1"> 1</label>
+                                <label><input type="radio" name="comedy-c-1" value="2"> 2</label>
+                                <label><input type="radio" name="comedy-c-1" value="3"> 3</label>
+                                <label><input type="radio" name="comedy-c-1" value="4"> 4</label>
+                                <label><input type="radio" name="comedy-c-1" value="5"> 5</label>
+                            </div>
+                            <label for="comedy-c-2">(2). Expected but timed jokes are funnier than out-of-nowhere punchlines.</label>
+                            <div>
+                                <label><input type="radio" name="comedy-c-2" value="1"> 1</label>
+                                <label><input type="radio" name="comedy-c-2" value="2"> 2</label>
+                                <label><input type="radio" name="comedy-c-2" value="3"> 3</label>
+                                <label><input type="radio" name="comedy-c-2" value="4"> 4</label>
+                                <label><input type="radio" name="comedy-c-2" value="5"> 5</label>
+                            </div>
+                            <label for="comedy-c-3">(3). Slow comedic setups are funnier than instant gags.</label>
+                            <div>
+                                <label><input type="radio" name="comedy-c-3" value="1"> 1</label>
+                                <label><input type="radio" name="comedy-c-3" value="2"> 2</label>
+                                <label><input type="radio" name="comedy-c-3" value="3"> 3</label>
+                                <label><input type="radio" name="comedy-c-3" value="4"> 4</label>
+                                <label><input type="radio" name="comedy-c-3" value="5"> 5</label>
+                            </div>
+                            <label for="comedy-c-4">(4). Comedic relief characters give life to the show.</label>
+                            <div>
+                                <label><input type="radio" name="comedy-c-4" value="1"> 1</label>
+                                <label><input type="radio" name="comedy-c-4" value="2"> 2</label>
+                                <label><input type="radio" name="comedy-c-4" value="3"> 3</label>
+                                <label><input type="radio" name="comedy-c-4" value="4"> 4</label>
+                                <label><input type="radio" name="comedy-c-4" value="5"> 5</label>
+                            </div>
+                            <label for="comedy-c-5">(5). I prefer comedies that balance humor with heartfelt moments (e.g., Spy x Family ) </label>
+                            <div class="question-image">
+                                <img src="https://giffiles.alphacoders.com/221/221007.gif" style="max-width: 100%; height: auto;">
+                            </div>
+                            <div>
+                                <label><input type="radio" name="comedy-c-5" value="1"> 1</label>
+                                <label><input type="radio" name="comedy-c-5" value="2"> 2</label>
+                                <label><input type="radio" name="comedy-c-5" value="3"> 3</label>
+                                <label><input type="radio" name="comedy-c-5" value="4"> 4</label>
+                                <label><input type="radio" name="comedy-c-5" value="5"> 5</label>
+                            </div>
+                    </fieldset>
+                    <fieldset class="trait-section" id="comedy-extraversion">
+                        <legend>Extraversion - (Social Bonds, Discovery)</legend>
+                        
+                        <div class="question">
+                            <label for="comedy-e-1">(1). Chaotic ensemble casts make me laugh more than solo comedies.</label>
+                            <div>
+                                <label><input type="radio" name="comedy-e-1" value="1"> 1</label>
+                                <label><input type="radio" name="comedy-e-1" value="2"> 2</label>
+                                <label><input type="radio" name="comedy-e-1" value="3"> 3</label>
+                                <label><input type="radio" name="comedy-e-1" value="4"> 4</label>
+                                <label><input type="radio" name="comedy-e-1" value="5"> 5</label>
+                            </div>
+                            <label for="comedy-e-2">(2). Comedic Villains make shows less dark.</label>
+                            <div>
+                                <label><input type="radio" name="comedy-e-2" value="1"> 1</label>
+                                <label><input type="radio" name="comedy-e-2" value="2"> 2</label>
+                                <label><input type="radio" name="comedy-e-2" value="3"> 3</label>
+                                <label><input type="radio" name="comedy-e-2" value="4"> 4</label>
+                                <label><input type="radio" name="comedy-e-2" value="5"> 5</label>
+                            </div>
+                            <label for="comedy-e-3">(3). Characters with a running gag make the show 10x funnier. </label>
+                            <div class="question-image">
+                                <img src="https://i.redd.it/854k6ftdxvg71.jpg" style="max-width: 100%; height: auto;">
+                            </div>
+                            <div>
+                                <label><input type="radio" name="comedy-e-3" value="1"> 1</label>
+                                <label><input type="radio" name="comedy-e-3" value="2"> 2</label>
+                                <label><input type="radio" name="comedy-e-3" value="3"> 3</label>
+                                <label><input type="radio" name="comedy-e-3" value="4"> 4</label>
+                                <label><input type="radio" name="comedy-e-3" value="5"> 5</label>
+                            </div>
+                            <label for="comedy-e-4">(4). My favorite comedic moments are usually when characters embarrass themselves in front of a crowd.</label>
+                            <div>
+                                <label><input type="radio" name="comedy-e-4" value="1"> 1</label>
+                                <label><input type="radio" name="comedy-e-4" value="2"> 2</label>
+                                <label><input type="radio" name="comedy-e-4" value="3"> 3</label>
+                                <label><input type="radio" name="comedy-e-4" value="4"> 4</label>
+                                <label><input type="radio" name="comedy-e-4" value="5"> 5</label>
+                            </div>
+                            <label for="comedy-e-5">(5). I find it fun when a comedy anime has a bunch of different characters popping in and out of the story.</label>
+                            <div>
+                                <label><input type="radio" name="comedy-e-5" value="1"> 1</label>
+                                <label><input type="radio" name="comedy-e-5" value="2"> 2</label>
+                                <label><input type="radio" name="comedy-e-5" value="3"> 3</label>
+                                <label><input type="radio" name="comedy-e-5" value="4"> 4</label>
+                                <label><input type="radio" name="comedy-e-5" value="5"> 5</label>
+                            </div>
+                        </div>
+                        
+                    </fieldset>
+                    <fieldset class="trait-section" id="comedy-agreeableness">
+                        <legend>Agreeableness - (Teamwork, Empathy, Harmony)</legend>
+                        
+                        <div class="question">
+                            <label for="comedy-a-1">(1). I prefer comedy anime where the characters, despite the chaos, clearly care about each other.</label>
+                            <div>
+                                <label><input type="radio" name="comedy-a-1" value="1"> 1</label>
+                                <label><input type="radio" name="comedy-a-1" value="2"> 2</label>
+                                <label><input type="radio" name="comedy-a-1" value="3"> 3</label>
+                                <label><input type="radio" name="comedy-a-1" value="4"> 4</label>
+                                <label><input type="radio" name="comedy-a-1" value="5"> 5</label>
+                            </div>
+                            <label for="comedy-a-2">(2). I enjoy it when a prank or joke ends with everyone laughing together rather than someone feeling left out.</label>
+                            <div>
+                                <label><input type="radio" name="comedy-a-2" value="1"> 1</label>
+                                <label><input type="radio" name="comedy-a-2" value="2"> 2</label>
+                                <label><input type="radio" name="comedy-a-2" value="3"> 3</label>
+                                <label><input type="radio" name="comedy-a-2" value="4"> 4</label>
+                                <label><input type="radio" name="comedy-a-2" value="5"> 5</label>
+                            </div>
+                            <label for="comedy-a-3">(3).I get annoyed when jokes in anime are too mean-spirited or come at someone's expense.</label>
+                            <div>
+                                <label><input type="radio" name="comedy-a-3" value="1"> 1</label>
+                                <label><input type="radio" name="comedy-a-3" value="2"> 2</label>
+                                <label><input type="radio" name="comedy-a-3" value="3"> 3</label>
+                                <label><input type="radio" name="comedy-a-3" value="4"> 4</label>
+                                <label><input type="radio" name="comedy-a-3" value="5"> 5</label>
+                            </div>
+                            <label for="acomedy-a-4">(4). I like when rivals in anime secretly support each other when it counts.</label>
+                            <div>
+                                <label><input type="radio" name="comedy-a-4" value="1"> 1</label>
+                                <label><input type="radio" name="comedy-a-4" value="2"> 2</label>
+                                <label><input type="radio" name="comedy-a-4" value="3"> 3</label>
+                                <label><input type="radio" name="comedy-a-4" value="4"> 4</label>
+                                <label><input type="radio" name="comedy-a-4" value="5"> 5</label>
+                            </div>
+                            <label for="comedy-a-5">(5). I relate more to characters who try to keep the peace in their group, even when chaos breaks out.</label>
+                            <div>
+                                <label><input type="radio" name="comedy-a-5" value="1"> 1</label>
+                                <label><input type="radio" name="comedy-a-5" value="2"> 2</label>
+                                <label><input type="radio" name="comedy-a-5" value="3"> 3</label>
+                                <label><input type="radio" name="comedy-a-5" value="4"> 4</label>
+                                <label><input type="radio" name="comedy-a-5" value="5"> 5</label>
+                            </div>
+                        </div>
+                    </fieldset>
+                    <fieldset class="trait-section" id="comedy-neuroticism">
+                        <legend>Neuroticism - (Darker, Emotionally Intense)</legend>
+                       
+                        <div class="question">
+                            <label for="comedy-n-1">(1). I avoid comedy anime that involves a lot of yelling or emotional explosions.</label>
+                            <div>
+                                <label><input type="radio" name="comedy-n-1" value="1"> 1</label>
+                                <label><input type="radio" name="comedy-n-1" value="2"> 2</label>
+                                <label><input type="radio" name="comedy-n-1" value="3"> 3</label>
+                                <label><input type="radio" name="comedy-n-1" value="4"> 4</label>
+                                <label><input type="radio" name="comedy-n-1" value="5"> 5</label>
+                            </div>
+                            <label for="comedy-n-2">(2).I relate to the character who's always trying to keep things together while everything around them is falling apart.</label>
+                            <div>
+                                <label><input type="radio" name="comedy-n-2" value="1"> 1</label>
+                                <label><input type="radio" name="comedy-n-2" value="2"> 2</label>
+                                <label><input type="radio" name="comedy-n-2" value="3"> 3</label>
+                                <label><input type="radio" name="comedy-n-2" value="4"> 4</label>
+                                <label><input type="radio" name="comedy-n-2" value="5"> 5</label>
+                            </div>
+                            <label for="comedy-n-3">(3). I relate to characters who overthink things or panic in silly situations.</label>
+                            <div>
+                                <label><input type="radio" name="comedy-n-3" value="1"> 1</label>
+                                <label><input type="radio" name="comedy-n-3" value="2"> 2</label>
+                                <label><input type="radio" name="comedy-n-3" value="3"> 3</label>
+                                <label><input type="radio" name="comedy-n-3" value="4"> 4</label>
+                                <label><input type="radio" name="comedy-n-3" value="5"> 5</label>
+                            </div>
+                            <label for="comedy-n-4">(4). I get secondhand embarrassment from awkward or cringey moments in comedy anime.</label>
+                            <div>
+                                <label><input type="radio" name="comedy-n-4" value="1"> 1</label>
+                                <label><input type="radio" name="comedy-n-4" value="2"> 2</label>
+                                <label><input type="radio" name="comedy-n-4" value="3"> 3</label>
+                                <label><input type="radio" name="comedy-n-4" value="4"> 4</label>
+                                <label><input type="radio" name="comedy-n-4" value="5"> 5</label>
+                            </div>
+                            <label for="comedy-n-5">(5). I feel tense when characters in anime are on the verge of getting caught doing something dumb. </label>
+                            <div>
+                                <label><input type="radio" name="comedy-n-5" value="1"> 1</label>
+                                <label><input type="radio" name="comedy-n-5" value="2"> 2</label>
+                                <label><input type="radio" name="comedy-n-5" value="3"> 3</label>
+                                <label><input type="radio" name="comedy-n-5" value="4"> 4</label>
+                                <label><input type="radio" name="comedy-n-5" value="5"> 5</label>
+                            </div>
+                        </div>
+                        
+                    </fieldset>
+                   
+                    <p>Why do you like the Comedy genre?</p>
+                    <textarea name="comedy-reason" rows="3"></textarea>
+                </div>
+
+                
+                <div id="Drama-Genre" style="display: none;">
+                    <h3>Drama Genre</h3>
+                    
+                    <fieldset class="trait-section" id="drama-openness">
+                        <legend>Openness to Experience</legend>
+                        <div class="question">
+                            <label for="drama-o-1">(1). When a story dives into the inner world of a character, like dreams, fears, or memories, I’m all in. (e.g., ReLife)</label>
+                            <div class="question-image">
+                                <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiBeARQr7WvVIUbYBodtU8w34JU5ow_MOXwLhCao3U94vZFYoD4XlVRMxoafdDzPnN5BPZ9XC03K-U0q-S04B8J6N8hZF2OO4JR3DeSidlTbHCIqSOrCrPgveYzsiQmGYCTrv2rdYUStPJw/s1600/tumblr_o9nhiyjZ3G1tlqib5o10_500.gif" style="max-width: 100%; height: auto;">
+                            </div>
+                            <div>
+                                <label><input type="radio" name="drama-o-1" value="1"> 1</label>
+                                <label><input type="radio" name="drama-o-1" value="2"> 2</label>
+                                <label><input type="radio" name="drama-o-1" value="3"> 3</label>
+                                <label><input type="radio" name="drama-o-1" value="4"> 4</label>
+                                <label><input type="radio" name="drama-o-1" value="5"> 5</label>
+                            </div>
+                            <label for="drama-o-2">(2). Experimental art styles (e.g., Devilman Crybaby's chaotic visuals) enhance the emotional impact of a story.</label>
+                            <div class="question-image">
+                                <img src="https://i.pinimg.com/originals/9c/5f/50/9c5f503f4c2e3576a766baefd52c8bd0.gif" style="max-width: 100%; height: auto;">
+                            </div>
+                            <div>
+                                <label><input type="radio" name="drama-o-2" value="1"> 1</label>
+                                <label><input type="radio" name="drama-o-2" value="2"> 2</label>
+                                <label><input type="radio" name="drama-o-2" value="3"> 3</label>
+                                <label><input type="radio" name="drama-o-2" value="4"> 4</label>
+                                <label><input type="radio" name="drama-o-2" value="5"> 5</label>
+                            </div>
+                            <label for="drama-o-3">(3). I prefer character development that defies cliches (e.g., villains with sympathetic backstories) over predictable arcs.</label>
+                            <div>
+                                <label><input type="radio" name="drama-o-3" value="1"> 1</label>
+                                <label><input type="radio" name="drama-o-3" value="2"> 2</label>
+                                <label><input type="radio" name="drama-o-3" value="3"> 3</label>
+                                <label><input type="radio" name="drama-o-3" value="4"> 4</label>
+                                <label><input type="radio" name="drama-o-3" value="5"> 5</label>
+                            </div>
+                            <label for="drama-o-4">(4). Characters dealing with complex emotional struggles make the story more meaningful to me. (e.g., Erased)</label>
+                            <div class="question-image">
+                                <img src="https://45.media.tumblr.com/d0bd952e810a0812b92033aa6f6c8298/tumblr_o2rd41VyBm1rikp86o1_540.gif" style="max-width: 100%; height: auto;">
+                            </div>
+                            <div>
+                                <label><input type="radio" name="drama-o-4" value="1"> 1</label>
+                                <label><input type="radio" name="drama-o-4" value="2"> 2</label>
+                                <label><input type="radio" name="drama-o-4" value="3"> 3</label>
+                                <label><input type="radio" name="drama-o-4" value="4"> 4</label>
+                                <label><input type="radio" name="drama-o-4" value="5"> 5</label>
+                            </div>
+                            <label for="drama-o-5">(5). I’m intrigued by anime that challenge societal norms or explore taboo themes in thoughtful ways.</label>
+                            <div>
+                                <label><input type="radio" name="drama-o-5" value="1"> 1</label>
+                                <label><input type="radio" name="drama-o-5" value="2"> 2</label>
+                                <label><input type="radio" name="drama-o-5" value="3"> 3</label>
+                                <label><input type="radio" name="drama-o-5" value="4"> 4</label>
+                                <label><input type="radio" name="drama-o-5" value="5"> 5</label>
+                            </div>
+                        </div>
+                    </fieldset>
+                    <fieldset class="trait-section" id="drama-conscientiousness">
+                        <legend>Conscientiousness-(Consistency, Balance)</legend>
+                       
+                        <div class="question">
+                            <label for="drama-c-1">(1). Do you admire characters who dedicate themselves to learning a new skill or job as a way to understand emotions and connect with others? (e.g., Violet Evergarden)</label>
+                            <div class="question-image">
+                                <img src="https://i.imgur.com/GVCyl9l.gif" style="max-width: 100%; height: auto;">
+                            </div>
+                            <div>
+                                <label><input type="radio" name="drama-c-1" value="1"> 1</label>
+                                <label><input type="radio" name="drama-c-1" value="2"> 2</label>
+                                <label><input type="radio" name="drama-c-1" value="3"> 3</label>
+                                <label><input type="radio" name="drama-c-1" value="4"> 4</label>
+                                <label><input type="radio" name="drama-c-1" value="5"> 5</label>
+                            </div>
+                            <label for="drama-c-2">(2). Does it matter to you when characters take the time to understand their responsibilities in someone else's life, even when it's inconvenient or confusing?</label>
+                            <div>
+                                <label><input type="radio" name="drama-c-2" value="1"> 1</label>
+                                <label><input type="radio" name="drama-c-2" value="2"> 2</label>
+                                <label><input type="radio" name="drama-c-2" value="3"> 3</label>
+                                <label><input type="radio" name="drama-c-2" value="4"> 4</label>
+                                <label><input type="radio" name="drama-c-2" value="5"> 5</label>
+                            </div>
+                            <label for="drama-c-3">(3). Even if something is morally gray, would you still consider doing it? </label>
+                            <div>
+                                <label><input type="radio" name="drama-c-3" value="1"> 1</label>
+                                <label><input type="radio" name="drama-c-3" value="2"> 2</label>
+                                <label><input type="radio" name="drama-c-3" value="3"> 3</label>
+                                <label><input type="radio" name="drama-c-3" value="4"> 4</label>
+                                <label><input type="radio" name="drama-c-3" value="5"> 5</label>
+                            </div>
+                            <label for="drama-c-4">(4). Would you love for an emotionally strong or emotionally numb character to do the right thing that could fix everything? </label>
+                            <div>
+                                <label><input type="radio" name="drama-c-4" value="1"> 1</label>
+                                <label><input type="radio" name="drama-c-4" value="2"> 2</label>
+                                <label><input type="radio" name="drama-c-4" value="3"> 3</label>
+                                <label><input type="radio" name="drama-c-4" value="4"> 4</label>
+                                <label><input type="radio" name="drama-c-4" value="5"> 5</label>
+                            </div>
+                            <label for="drama-c-5">(5).I admire protagonists who follow strict moral codes (e.g., Code Geass's Lelouch, who became a tyrant to unite a broken world) over those who act impulsively.  </label>
+                            <div class="question-image">
+                                <img src="https://media0.giphy.com/media/RKp3DW2ZwDlVS/giphy.gif?cid=6c09b952xdr38bmy54f3e6qn6y7enwflu9ffly7h6n1jjq90&ep=v1_gifs_search&rid=giphy.gif&ct=g" style="max-width: 100%; height: auto;">
+                            </div>
+                            <div>
+                                <label><input type="radio" name="drama-c-5" value="1"> 1</label>
+                                <label><input type="radio" name="drama-c-5" value="2"> 2</label>
+                                <label><input type="radio" name="drama-c-5" value="3"> 3</label>
+                                <label><input type="radio" name="drama-c-5" value="4"> 4</label>
+                                <label><input type="radio" name="drama-c-5" value="5"> 5</label>
+                            </div>
+                    </fieldset>
+                    <fieldset class="trait-section" id="drama-extraversion">
+                        <legend>Extraversion - (Social Bonds, Discovery)</legend>
+                       
+                        <div class="question">
+                            <label for="drama-e-1">(1). I enjoy watching anime where the main character has a loud, energetic personality. </label>
+                            <div>
+                                <label><input type="radio" name="drama-e-1" value="1"> 1</label>
+                                <label><input type="radio" name="drama-e-1" value="2"> 2</label>
+                                <label><input type="radio" name="drama-e-1" value="3"> 3</label>
+                                <label><input type="radio" name="drama-e-1" value="4"> 4</label>
+                                <label><input type="radio" name="drama-e-1" value="5"> 5</label>
+                            </div>
+                            <label for="drama-e-2">(2). I’m drawn to group-centered anime where characters are always interacting. </label>
+                            <div>
+                                <label><input type="radio" name="drama-e-2" value="1"> 1</label>
+                                <label><input type="radio" name="drama-e-2" value="2"> 2</label>
+                                <label><input type="radio" name="drama-e-2" value="3"> 3</label>
+                                <label><input type="radio" name="drama-e-2" value="4"> 4</label>
+                                <label><input type="radio" name="drama-e-2" value="5"> 5</label>
+                            </div>
+                            <label for="drama-e-3">(3). It's fun to watch when love rivals meet at a social gathering. </label>
+                            <div>
+                                <label><input type="radio" name="drama-e-3" value="1"> 1</label>
+                                <label><input type="radio" name="drama-e-3" value="2"> 2</label>
+                                <label><input type="radio" name="drama-e-3" value="3"> 3</label>
+                                <label><input type="radio" name="drama-e-3" value="4"> 4</label>
+                                <label><input type="radio" name="drama-e-3" value="5"> 5</label>
+                            </div>
+                            <label for="drama-e-4">(4). Dramatic entraces are cool and sets up the vibes</label>
+                            <div>
+                                <label><input type="radio" name="drama-e-4" value="1"> 1</label>
+                                <label><input type="radio" name="drama-e-4" value="2"> 2</label>
+                                <label><input type="radio" name="drama-e-4" value="3"> 3</label>
+                                <label><input type="radio" name="drama-e-4" value="4"> 4</label>
+                                <label><input type="radio" name="drama-e-4" value="5"> 5</label>
+                            </div>
+                            <label for="drama-e-5">(5). I prefer characters who speak their minds, even if it causes drama, over quiet and mysterious ones.</label>
+                            <div>
+                                <label><input type="radio" name="drama-e-5" value="1"> 1</label>
+                                <label><input type="radio" name="drama-e-5" value="2"> 2</label>
+                                <label><input type="radio" name="drama-e-5" value="3"> 3</label>
+                                <label><input type="radio" name="drama-e-5" value="4"> 4</label>
+                                <label><input type="radio" name="drama-e-5" value="5"> 5</label>
+                            </div>
+                        </div>
+                        
+                    </fieldset>
+                    <fieldset class="trait-section" id="drama-agreeableness">
+                        <legend>Agreeableness - (Teamwork, Empathy, Harmony)</legend>
+                        
+                        <div class="question">
+                            <label for="drama-a-1">(1). When you mediate between two enemies in the heat of an argument, do you impose your judgment to make them stop?</label>
+                            <div>
+                                <label><input type="radio" name="drama-a-1" value="1"> 1</label>
+                                <label><input type="radio" name="drama-a-1" value="2"> 2</label>
+                                <label><input type="radio" name="drama-a-1" value="3"> 3</label>
+                                <label><input type="radio" name="drama-a-1" value="4"> 4</label>
+                                <label><input type="radio" name="drama-a-1" value="5"> 5</label>
+                            </div>
+                            <label for="drama-a-2">(2). Are you more likely to compromise in an argument rather than stubbornly insist on being right.</label>
+                            <div>
+                                <label><input type="radio" name="drama-a-2" value="1"> 1</label>
+                                <label><input type="radio" name="drama-a-2" value="2"> 2</label>
+                                <label><input type="radio" name="drama-a-2" value="3"> 3</label>
+                                <label><input type="radio" name="drama-a-2" value="4"> 4</label>
+                                <label><input type="radio" name="drama-a-2" value="5"> 5</label>
+                            </div>
+                            <label for="drama-a-3">(3). You believe in giving people second chances, even if they’ve done you wrong in the past.</label>
+                            <div>
+                                <label><input type="radio" name="drama-a-3" value="1"> 1</label>
+                                <label><input type="radio" name="drama-a-3" value="2"> 2</label>
+                                <label><input type="radio" name="drama-a-3" value="3"> 3</label>
+                                <label><input type="radio" name="drama-a-3" value="4"> 4</label>
+                                <label><input type="radio" name="drama-a-3" value="5"> 5</label>
+                            </div>
+                            <label for="drama-a-4">(4). You trust quickly, even if there is a high risk of betrayal.</label>
+                            <div>
+                                <label><input type="radio" name="drama-a-4" value="1"> 1</label>
+                                <label><input type="radio" name="drama-a-4" value="2"> 2</label>
+                                <label><input type="radio" name="drama-a-4" value="3"> 3</label>
+                                <label><input type="radio" name="drama-a-4" value="4"> 4</label>
+                                <label><input type="radio" name="drama-a-4" value="5"> 5</label>
+                            </div>
+                            <label for="drama-a-5">(5). You're good at listening, especially when a friend is venting their anger at you. </label>
+                            <div>
+                                <label><input type="radio" name="drama-a-5" value="1"> 1</label>
+                                <label><input type="radio" name="drama-a-5" value="2"> 2</label>
+                                <label><input type="radio" name="drama-a-5" value="3"> 3</label>
+                                <label><input type="radio" name="drama-a-5" value="4"> 4</label>
+                                <label><input type="radio" name="drama-a-5" value="5"> 5</label>
+                            </div>
+                        </div>
+                    </fieldset>
+                    <fieldset class="trait-section" id="drama-neuroticism">
+                        <legend>Neuroticism - (Darker, Emotionally Intense)</legend>
+                       
+                        <div class="question">
+                            <label for="drama-n-1">(1). When a character feels like they’re not good enough, I start reflecting on my own self-worth too (e.g., Monster's Tenma Kenzo).</label>
+                            <div class="question-image">
+                                <img src="https://media.tenor.com/kN14QbOxw7oAAAAM/tenma-kenzo-tenma.gif" style="max-width: 100%; height: auto;">
+                            </div>
+                            <div>
+                                <label><input type="radio" name="drama-n-1" value="1"> 1</label>
+                                <label><input type="radio" name="drama-n-1" value="2"> 2</label>
+                                <label><input type="radio" name="drama-n-1" value="3"> 3</label>
+                                <label><input type="radio" name="drama-n-1" value="4"> 4</label>
+                                <label><input type="radio" name="drama-n-1" value="5"> 5</label>
+                            </div>
+                            <label for="drama-n-2">(2).I find it unrealistic when characters are too kind (e.g., never getting angry).</label>
+                            <div>
+                                <label><input type="radio" name="drama-n-2" value="1"> 1</label>
+                                <label><input type="radio" name="drama-n-2" value="2"> 2</label>
+                                <label><input type="radio" name="drama-n-2" value="3"> 3</label>
+                                <label><input type="radio" name="drama-n-2" value="4"> 4</label>
+                                <label><input type="radio" name="drama-n-2" value="5"> 5</label>
+                            </div>
+                            <label for="drama-n-3">(3). I cringe when characters prioritize "justice" over understanding someone’s circumstances (e.g., Tokyo Ghoul's Anteiku Battle).</label>
+                            <div class="question-image">
+                                <img src="https://usagif.com/wp-content/uploads/2022/4hv9xm/tokyo-ghoul-acegif-71.gif" style="max-width: 100%; height: auto;">
+                            </div>
+                            <div>
+                                <label><input type="radio" name="drama-n-3" value="1"> 1</label>
+                                <label><input type="radio" name="drama-n-3" value="2"> 2</label>
+                                <label><input type="radio" name="drama-n-3" value="3"> 3</label>
+                                <label><input type="radio" name="drama-n-3" value="4"> 4</label>
+                                <label><input type="radio" name="drama-n-3" value="5"> 5</label>
+                            </div>
+                            <label for="drama-n-4">(4). I respect characters who help villains redeem themselves rather than defeat them.</label>
+                            <div>
+                                <label><input type="radio" name="drama-n-4" value="1"> 1</label>
+                                <label><input type="radio" name="drama-n-4" value="2"> 2</label>
+                                <label><input type="radio" name="drama-n-4" value="3"> 3</label>
+                                <label><input type="radio" name="drama-n-4" value="4"> 4</label>
+                                <label><input type="radio" name="drama-n-4" value="5"> 5</label>
+                            </div>
+                            <label for="drama-n-5">(5). I admire characters who sacrifice their own happiness to make others smile. </label>
+                            <div>
+                                <div class="question-image">
+                                <img src="https://iexaminer.org/wp-content/uploads/2019/01/a-silent-voice-1-web.jpg" style="max-width: 100%; height: auto;">
+                            </div>
+                                <label><input type="radio" name="drama-n-5" value="1"> 1</label>
+                                <label><input type="radio" name="drama-n-5" value="2"> 2</label>
+                                <label><input type="radio" name="drama-n-5" value="3"> 3</label>
+                                <label><input type="radio" name="drama-n-5" value="4"> 4</label>
+                                <label><input type="radio" name="drama-n-5" value="5"> 5</label>
+                            </div>
+                        </div>
+                        
+                    </fieldset>
+                    
+                    <p>Why do you like the Drama genre?</p>
+                    <textarea name="drama-reason" rows="3"></textarea>
+                </div>
+
+               
+                <div id="Fantasy-Genre" style="display: none;">
+                    <h3>Fantasy Genre</h3>
+                    
+                    <fieldset class="trait-section" id="fantasy-openness">
+                        <legend>Openness to Experience</legend>
+                        <div class="question">
+                            <label for="fantasy-o-1">(1). Isekai (another world) is a fantasy theme that I would like (e.g., No Game No Life).</label>
+                            <div>
+                                <div class="question-image">
+                                <img src="https://i.pinimg.com/originals/42/a2/b3/42a2b3986b1db051f434fefe255b8f72.gif" style="max-width: 100%; height: auto;">
+                            </div>
+                            <div>
+                                <label><input type="radio" name="fantasy-o-1" value="1"> 1</label>
+                                <label><input type="radio" name="fantasy-o-1" value="2"> 2</label>
+                                <label><input type="radio" name="fantasy-o-1" value="3"> 3</label>
+                                <label><input type="radio" name="fantasy-o-1" value="4"> 4</label>
+                                <label><input type="radio" name="fantasy-o-1" value="5"> 5</label>
+                            </div>
+                            <label for="fantasy-o-2">(2). The more bizarre or surreal the setting, the more I want to explore it</label>
+                            <div>
+                                <label><input type="radio" name="fantasy-o-2" value="1"> 1</label>
+                                <label><input type="radio" name="fantasy-o-2" value="2"> 2</label>
+                                <label><input type="radio" name="fantasy-o-2" value="3"> 3</label>
+                                <label><input type="radio" name="fantasy-o-2" value="4"> 4</label>
+                                <label><input type="radio" name="fantasy-o-2" value="5"> 5</label>
+                            </div>
+                            <label for="fantasy-o-3">(3). I associate fantasy with anything colorful and magical.</label>
+                            <div>
+                                <label><input type="radio" name="fantasy-o-3" value="1"> 1</label>
+                                <label><input type="radio" name="fantasy-o-3" value="2"> 2</label>
+                                <label><input type="radio" name="fantasy-o-3" value="3"> 3</label>
+                                <label><input type="radio" name="fantasy-o-3" value="4"> 4</label>
+                                <label><input type="radio" name="fantasy-o-3" value="5"> 5</label>
+                            </div>
+                            <label for="fantasy-o-4">(4). I would like a combination of the modern and medieval twist in fantasy (e.g., Gate Jietai).</label>
+                            <div>
+                                <div class="question-image">
+                                <img src="https://steamuserimages-a.akamaihd.net/ugc/547556781787923094/B915D3833E43FB1962713E23484A6990D43024DD/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false" style="max-width: 100%; height: auto;">
+                            </div>
+                            <div>
+                                <label><input type="radio" name="fantasy-o-4" value="1"> 1</label>
+                                <label><input type="radio" name="fantasy-o-4" value="2"> 2</label>
+                                <label><input type="radio" name="fantasy-o-4" value="3"> 3</label>
+                                <label><input type="radio" name="fantasy-o-4" value="4"> 4</label>
+                                <label><input type="radio" name="fantasy-o-4" value="5"> 5</label>
+                            </div>
+                            <label for="fantasy-o-5">(5). World-building or kingdom-building fantasy is something I would want to watch (e.g., How a Realist Rebuilt a Kingdom).</label>
+                            <div>
+                                <div class="question-image">
+                                <img src="https://media.tenor.com/zRoOzZbRckoAAAAe/how-a-realist-hero-rebuilt-the-kingdom-genjitsu-shugi-yuusha-no-oukoku-saikenki.png" style="max-width: 100%; height: auto;">
+                            </div>
+                            <div>
+                                <label><input type="radio" name="fantasy-o-5" value="1"> 1</label>
+                                <label><input type="radio" name="fantasy-o-5" value="2"> 2</label>
+                                <label><input type="radio" name="fantasy-o-5" value="3"> 3</label>
+                                <label><input type="radio" name="fantasy-o-5" value="4"> 4</label>
+                                <label><input type="radio" name="fantasy-o-5" value="5"> 5</label>
+                            </div>
+                        </div>
+                    </fieldset>
+                    <fieldset class="trait-section" id="fantasy-conscientiousness">
+                        <legend>Conscientiousness-(Responsible, Disciplined)</legend>
+                        <div class="question">
+                            <label for="fantasy-c-1">(1). I love characters who follow a strict personal code or set of principles, even when it is inconvenient (e.g., Fairy Tail's Erza Scarlet)</label>
+                            <div>
+                                <div class="question-image">
+                                <img src="https://i.pinimg.com/originals/00/d5/58/00d558743d4c20320ec9054e6582b7d2.gif" style="max-width: 100%; height: auto;">
+                            </div>
+                            <div>
+                                <label><input type="radio" name="fantasy-c-1" value="1"> 1</label>
+                                <label><input type="radio" name="fantasy-c-1" value="2"> 2</label>
+                                <label><input type="radio" name="fantasy-c-1" value="3"> 3</label>
+                                <label><input type="radio" name="fantasy-c-1" value="4"> 4</label>
+                                <label><input type="radio" name="fantasy-c-1" value="5"> 5</label>
+                            </div>
+                            <label for="fantasy-c-2">(2). I love characters who keep their living space, weapons, or tools meticulously organized (e.g., Attack on Titan's Levi Ackermann). (</label>
+                            <div>
+                                <div class="question-image">
+                                <img src="https://gifdb.com/images/high/levi-ackerman-opening-window-do0cxw98v5x09kku.gif" style="max-width: 100%; height: auto;">
+                            </div>
+                            <div>
+                                <label><input type="radio" name="fantasy-c-2" value="1"> 1</label>
+                                <label><input type="radio" name="fantasy-c-2" value="2"> 2</label>
+                                <label><input type="radio" name="fantasy-c-2" value="3"> 3</label>
+                                <label><input type="radio" name="fantasy-c-2" value="4"> 4</label>
+                                <label><input type="radio" name="fantasy-c-2" value="5"> 5</label>
+                            </div>
+                            <label for="fantasy-c-3">(3). I enjoy fantasy stories where characters work hard to build up their strength over time </label>
+                            <div>
+                                <label><input type="radio" name="fantasy-c-3" value="1"> 1</label>
+                                <label><input type="radio" name="fantasy-c-3" value="2"> 2</label>
+                                <label><input type="radio" name="fantasy-c-3" value="3"> 3</label>
+                                <label><input type="radio" name="fantasy-c-3" value="4"> 4</label>
+                                <label><input type="radio" name="fantasy-c-3" value="5"> 5</label>
+                            </div>
+                            <label for="fantasy-c-4">(4). I love characters who seem lazy at first but has the highest IQ around. </label>
+                            <div>
+                                <div class="question-image">
+                                <img src="https://i.pinimg.com/originals/d2/2d/d7/d22dd7a1216fd4ae3c3c05f8b09bc8e4.gif" style="max-width: 100%; height: auto;">
+                            </div>
+                            <div>
+                                <label><input type="radio" name="fantasy-c-4" value="1"> 1</label>
+                                <label><input type="radio" name="fantasy-c-4" value="2"> 2</label>
+                                <label><input type="radio" name="fantasy-c-4" value="3"> 3</label>
+                                <label><input type="radio" name="fantasy-c-4" value="4"> 4</label>
+                                <label><input type="radio" name="fantasy-c-4" value="5"> 5</label>
+                            </div>
+                            <label for="fantasy-c-5">(5). Characters who prepare extensively before battles or challenges may have an extremely high chance of winning, depending on their enemies. </label>
+                            <div>
+                                <label><input type="radio" name="fantasy-c-5" value="1"> 1</label>
+                                <label><input type="radio" name="fantasy-c-5" value="2"> 2</label>
+                                <label><input type="radio" name="fantasy-c-5" value="3"> 3</label>
+                                <label><input type="radio" name="fantasy-c-5" value="4"> 4</label>
+                                <label><input type="radio" name="fantasy-c-5" value="5"> 5</label>
+                            </div>
+                        </div>
+                    </fieldset>
+                    <fieldset class="trait-section" id="fantasy-extraversion">
+                        <legend>Extraversion - (Social Bonds, Discovery)</legend>
+                        <div class="question">
+                            <label for="fantasy-e-1">(1).If you were in your a fantasy anime, would you be the first to initiate conversation with others?</label>
+                            <div>
+                                <label><input type="radio" name="fantasy-e-1" value="1"> 1</label>
+                                <label><input type="radio" name="fantasy-e-1" value="2"> 2</label>
+                                <label><input type="radio" name="fantasy-e-1" value="3"> 3</label>
+                                <label><input type="radio" name="fantasy-e-1" value="4"> 4</label>
+                                <label><input type="radio" name="fantasy-e-1" value="5"> 5</label>
+                            </div>
+                            <label for="fantasy-e-2">(2). Would you thrive in an overly crowded place? (</label>
+                            <div>
+                                <label><input type="radio" name="fantasy-e-2" value="1"> 1</label>
+                                <label><input type="radio" name="fantasy-e-2" value="2"> 2</label>
+                                <label><input type="radio" name="fantasy-e-2" value="3"> 3</label>
+                                <label><input type="radio" name="fantasy-e-2" value="4"> 4</label>
+                                <label><input type="radio" name="fantasy-e-2" value="5"> 5</label>
+                            </div>
+                            <label for="fantasy-e-3">(3). I am an easy-going person, I can befriend anyone. </label>
+                            <div>
+                                <label><input type="radio" name="fantasy-e-3" value="1"> 1</label>
+                                <label><input type="radio" name="fantasy-e-3" value="2"> 2</label>
+                                <label><input type="radio" name="fantasy-e-3" value="3"> 3</label>
+                                <label><input type="radio" name="fantasy-e-3" value="4"> 4</label>
+                                <label><input type="radio" name="fantasy-e-3" value="5"> 5</label>
+                            </div>
+                            <label for="fantasy-e-4">(4). I love characters who express emotions openly (e.g., Demon Slayer's Inosuke)</label>
+                            <div>
+                                <div class="question-image">
+                                <img src="https://www.gifcen.com/wp-content/uploads/2023/09/inosuke-gif-4.gif" style="max-width: 100%; height: auto;">
+                            </div>
+                            <div>
+                                <label><input type="radio" name="fantasy-e-4" value="1"> 1</label>
+                                <label><input type="radio" name="fantasy-e-4" value="2"> 2</label>
+                                <label><input type="radio" name="fantasy-e-4" value="3"> 3</label>
+                                <label><input type="radio" name="fantasy-e-4" value="4"> 4</label>
+                                <label><input type="radio" name="fantasy-e-4" value="5"> 5</label>
+                            </div>
+                            <label for="fantasy-e-5">(5). I dislike quiet, slow-paced settings, like libraries or meditation.I get bored easily in quiet, slow-paced places like libraries, peaceful parks, or meditation scenes in anime. </label>
+                            <div>
+                                <label><input type="radio" name="fantasy-e-5" value="1"> 1</label>
+                                <label><input type="radio" name="fantasy-e-5" value="2"> 2</label>
+                                <label><input type="radio" name="fantasy-e-5" value="3"> 3</label>
+                                <label><input type="radio" name="fantasy-e-5" value="4"> 4</label>
+                                <label><input type="radio" name="fantasy-e-5" value="5"> 5</label>
+                            </div>
+                        </div>
+                    </fieldset> 
+                    <fieldset class="trait-section" id="fantasy-agreeableness">
+                        <legend>Agreeableness - (Teamwork, Empathy, Harmony)</legend>
+                        <div class="question">
+                            <label for="fantasy-a-1">(1). In anime, I prefer it when a character chooses mercy over revenge, even in intense battle scenes.</label>
+                            <div>
+                                <label><input type="radio" name="fantasy-a-1" value="1"> 1</label>
+                                <label><input type="radio" name="fantasy-a-1" value="2"> 2</label>
+                                <label><input type="radio" name="fantasy-a-1" value="3"> 3</label>
+                                <label><input type="radio" name="fantasy-a-1" value="4"> 4</label>
+                                <label><input type="radio" name="fantasy-a-1" value="5"> 5</label>
+                            </div>
+                            <label for="fantasy-e-2">(2). I think characters should keep what they earn for themselves, especially if they worked hard for it. (</label>
+                            <div>
+                                <label><input type="radio" name="fantasy-a-2" value="1"> 1</label>
+                                <label><input type="radio" name="fantasy-a-2" value="2"> 2</label>
+                                <label><input type="radio" name="fantasy-a-2" value="3"> 3</label>
+                                <label><input type="radio" name="fantasy-a-2" value="4"> 4</label>
+                                <label><input type="radio" name="fantasy-a-2" value="5"> 5</label>
+                            </div>
+                            <label for="fantasy-a-3">(3). Gaining power at the cost of others' trust makes a character less likable to me (e.g., Rising of the Shield Hero's Matly's betrayal). </label>
+                            <div>
+                                <div class="question-image">
+                                <img src="https://static.wikia.nocookie.net/1071e6f8-000b-4286-a891-551dbbe2fb5c/scale-to-width/370" style="max-width: 100%; height: auto;">
+                            </div>
+                            <div>
+                                <label><input type="radio" name="fantasy-a-3" value="1"> 1</label>
+                                <label><input type="radio" name="fantasy-a-3" value="2"> 2</label>
+                                <label><input type="radio" name="fantasy-a-3" value="3"> 3</label>
+                                <label><input type="radio" name="fantasy-a-3" value="4"> 4</label>
+                                <label><input type="radio" name="fantasy-a-3" value="5"> 5</label>
+                            </div>
+                            <label for="fantasy-a-4">(4). I feel connected to characters who act as peacekeepers within their group.</label>
+                            <div>
+                                <label><input type="radio" name="fantasy-a-4" value="1"> 1</label>
+                                <label><input type="radio" name="fantasy-a-4" value="2"> 2</label>
+                                <label><input type="radio" name="fantasy-a-4" value="3"> 3</label>
+                                <label><input type="radio" name="fantasy-a-4" value="4"> 4</label>
+                                <label><input type="radio" name="fantasy-a-4" value="5"> 5</label>
+                            </div>
+                            <label for="fantasy-a-5">(5). I like characters who stay humble, even after doing something amazing. </label>
+                            <div>
+                                <label><input type="radio" name="fantasy-a-5" value="1"> 1</label>
+                                <label><input type="radio" name="fantasy-a-5" value="2"> 2</label>
+                                <label><input type="radio" name="fantasy-a-5" value="3"> 3</label>
+                                <label><input type="radio" name="fantasy-a-5" value="4"> 4</label>
+                                <label><input type="radio" name="fantasy-a-5" value="5"> 5</label>
+                            </div>
+                        </div>
+                    </fieldset>
+                    <fieldset class="trait-section" id="fantasy-neuroticism">
+                        <legend>Neuroticism - (Dark, Emotional)</legend>
+                        <div class="question">
+                            <label for="fantasy-n-1">(1). Even when I make the "right" strategic decision, I can’t stop feeling guilty if it hurts others—even if it was necessary.</label>
+                            <div>
+                                <label><input type="radio" name="fantasy-n-1" value="1"> 1</label>
+                                <label><input type="radio" name="fantasy-n-1" value="2"> 2</label>
+                                <label><input type="radio" name="fantasy-n-1" value="3"> 3</label>
+                                <label><input type="radio" name="fantasy-n-1" value="4"> 4</label>
+                                <label><input type="radio" name="fantasy-n-1" value="5"> 5</label>
+                            </div>
+                            <label for="fantasy-n-2">(2). I feel uneasy when characters are faced with choices where there’s no clear "right" decision, only the least harmful outcome.(e.g., Attack on Titan's Erwin Smith) (</label>
+                            <div>
+                                <div class="question-image">
+                                <img src="https://media.tenor.com/fLXoJ8pJZkoAAAAM/erwin-smith-charge.gif" style="max-width: 100%; height: auto;">
+                            </div>
+                            <div>
+                                <label><input type="radio" name="fantasy-n-2" value="1"> 1</label>
+                                <label><input type="radio" name="fantasy-n-2" value="2"> 2</label>
+                                <label><input type="radio" name="fantasy-n-2" value="3"> 3</label>
+                                <label><input type="radio" name="fantasy-n-2" value="4"> 4</label>
+                                <label><input type="radio" name="fantasy-n-2" value="5"> 5</label>
+                            </div>
+                            <label for="fantasy-n-3">(3). I admire characters who sacrifice their own lives to protect others, even when they know it could be the end for them.  </label>
+                            <div>
+                                <div class="question-image">
+                                <img src="https://media.tenor.com/7qwjAs0RPC0AAAAM/zero-no-tsukaima-saito-hiraga.gif" style="max-width: 100%; height: auto;">
+                            </div>
+                            <div>
+                                <label><input type="radio" name="fantasy-n-3" value="1"> 1</label>
+                                <label><input type="radio" name="fantasy-n-3" value="2"> 2</label>
+                                <label><input type="radio" name="fantasy-n-3" value="3"> 3</label>
+                                <label><input type="radio" name="fantasy-n-3" value="4"> 4</label>
+                                <label><input type="radio" name="fantasy-n-3" value="5"> 5</label>
+                            </div>
+                            <label for="fantasy-n-4">(4). When a character feels guilty for not being able saving everyone, it makes them more human to me. (e.g., Re:Zero's Subaru)</label>
+                            <div>
+                                <div class="question-image">
+                                <img src="https://i.pinimg.com/originals/15/06/5a/15065aa0d7e6a604a1250fe102c3f5fd.gif" style="max-width: 100%; height: auto;">
+                            </div>
+                            <div>
+                                <label><input type="radio" name="fantasy-n-4" value="1"> 1</label>
+                                <label><input type="radio" name="fantasy-n-4" value="2"> 2</label>
+                                <label><input type="radio" name="fantasy-n-4" value="3"> 3</label>
+                                <label><input type="radio" name="fantasy-n-4" value="4"> 4</label>
+                                <label><input type="radio" name="fantasy-n-4" value="5"> 5</label>
+                            </div>
+                            <label for="fantasy-n-5">(5). I relate to characters who struggle with the weight of their past actions, especially if it's something they can't undo, and it haunts them throughout their journey. </label>
+                            <div>
+                                <label><input type="radio" name="fantasy-n-5" value="1"> 1</label>
+                                <label><input type="radio" name="fantasy-n-5" value="2"> 2</label>
+                                <label><input type="radio" name="fantasy-n-5" value="3"> 3</label>
+                                <label><input type="radio" name="fantasy-n-5" value="4"> 4</label>
+                                <label><input type="radio" name="fantasy-n-5" value="5"> 5</label>
+                            </div>
+                        </div>
+                    </fieldset>
+                    
+                    <p>Why do you like the Fantasy genre?</p>
+                    <textarea name="fantasy-reason" rows="3"></textarea>
+                </div>
+
+                
+                <div id="Horror-Genre" style="display: none;">
+                    <h3>Horror Genre</h3>
+                    
+                    <fieldset class="trait-section" id="horror-openness">
+                        <legend>Openness to Experience</legend>
+                        <div class="question">
+                            <label for="horror-o-1">(1). I'm drawn to psychological horror over straightforward gore.</label>
+                            <div>
+                                <label><input type="radio" name="horror-o-1" value="1"> 1</label>
+                                <label><input type="radio" name="horror-o-1" value="2"> 2</label>
+                                <label><input type="radio" name="horror-o-1" value="3"> 3</label>
+                                <label><input type="radio" name="horror-o-1" value="4"> 4</label>
+                                <label><input type="radio" name="horror-o-1" value="5"> 5</label>
+                            </div>
+                            <label for="horror-o-2">(2). I enjoy horror that blends other genres (e.g., Elfen Lied)</label>
+                            <div>
+                                <div class="question-image">
+                                <img src="https://media0.giphy.com/media/PcHG4sgdWMRDW/200w.gif?cid=6c09b9523nbgv157zneyobabebeexkovkgaicvq6vo0e1ilq&ep=v1_gifs_search&rid=200w.gif&ct=g" style="max-width: 100%; height: auto;">
+                            </div>
+                            <div>
+                                <label><input type="radio" name="horror-o-2" value="1"> 1</label>
+                                <label><input type="radio" name="horror-o-2" value="2"> 2</label>
+                                <label><input type="radio" name="horror-o-2" value="3"> 3</label>
+                                <label><input type="radio" name="horror-o-2" value="4"> 4</label>
+                                <label><input type="radio" name="horror-o-2" value="5"> 5</label>
+                            </div>
+                            <label for="horror-o-3">(3). I find that an art style that emphasizes atmosphere and mood makes the horror elements even more intense (e.g., Uzumaki)</label>
+                            <div>
+                                <div class="question-image">
+                                <img src="https://64.media.tumblr.com/c3e5389df68f76e9ae3a5772921a0c0e/612be83f6aa506e0-d4/s540x810/92f046565ffdc87dda9bf15804cec4418111f1ba.gif" style="max-width: 100%; height: auto;">
+                            </div>
+                            <div>
+                                <label><input type="radio" name="horror-o-3" value="1"> 1</label>
+                                <label><input type="radio" name="horror-o-3" value="2"> 2</label>
+                                <label><input type="radio" name="horror-o-3" value="3"> 3</label>
+                                <label><input type="radio" name="horror-o-3" value="4"> 4</label>
+                                <label><input type="radio" name="horror-o-3" value="5"> 5</label>
+                            </div>
+                            <label for="horror-o-4">(4). I enjoy horror anime with intense violence and deeper moral or philosophical themes, even if it's disturbing.</label>
+                            <div>
+                                <label><input type="radio" name="horror-o-4" value="1"> 1</label>
+                                <label><input type="radio" name="horror-o-4" value="2"> 2</label>
+                                <label><input type="radio" name="horror-o-4" value="3"> 3</label>
+                                <label><input type="radio" name="horror-o-4" value="4"> 4</label>
+                                <label><input type="radio" name="horror-o-4" value="5"> 5</label>
+                            </div>
+                            <label for="horror-o-5">(5).  Jumpscares are what scare you more than character style.</label>
+                            <div>
+                                <label><input type="radio" name="horror-o-5" value="1"> 1</label>
+                                <label><input type="radio" name="horror-o-5" value="2"> 2</label>
+                                <label><input type="radio" name="horror-o-5" value="3"> 3</label>
+                                <label><input type="radio" name="horror-o-5" value="4"> 4</label>
+                                <label><input type="radio" name="horror-o-5" value="5"> 5</label>
+                            </div>
+                        </div>
+                    </fieldset>
+                    <fieldset class="trait-section" id="horror-conscientiousness">
+                        <legend>Conscientiousness - (Logical) </legend>
+                        <div class="question">
+                            <label for="horror-c-1">(1). I like characters who prepare survival kits (holy water, flashlights, first aid) in advance—just in case things go wrong.</label>
+                            <div>
+                                <label><input type="radio" name="horror-c-1" value="1"> 1</label>
+                                <label><input type="radio" name="horror-c-1" value="2"> 2</label>
+                                <label><input type="radio" name="horror-c-1" value="3"> 3</label>
+                                <label><input type="radio" name="horror-c-1" value="4"> 4</label>
+                                <label><input type="radio" name="horror-c-1" value="5"> 5</label>
+                            </div>
+                            <label for="horror-c-2">(2). Visitng abandoned places alone is not a good move (e.g., Dandadan's First Episode) </label>
+                            <div>
+                                <div class="question-image">
+                                <img src="https://www.gifcen.com/wp-content/uploads/2025/02/dandadan-gif-3.gif" style="max-width: 100%; height: auto;">
+                            </div>
+                            <div>
+                                <label><input type="radio" name="horror-c-2" value="1"> 1</label>
+                                <label><input type="radio" name="horror-c-2" value="2"> 2</label>
+                                <label><input type="radio" name="horror-c-2" value="3"> 3</label>
+                                <label><input type="radio" name="horror-c-2" value="4"> 4</label>
+                                <label><input type="radio" name="horror-c-2" value="5"> 5</label>
+                            </div>
+                            <label for="horror-c-3">(3). I avoid reckless actions in horror scenarios, like splitting up the group or provoking supernatural entities.</label>
+                            <div>
+                                <label><input type="radio" name="horror-c-3" value="1"> 1</label>
+                                <label><input type="radio" name="horror-c-3" value="2"> 2</label>
+                                <label><input type="radio" name="horror-c-3" value="3"> 3</label>
+                                <label><input type="radio" name="horror-c-3" value="4"> 4</label>
+                                <label><input type="radio" name="horror-c-3" value="5"> 5</label>
+                            </div>
+                            <label for="horror-c-4">(4). If you saw something "paranormal", think of any logical answers to explain what happened.</label>
+                            <div>
+                                <label><input type="radio" name="horror-c-4" value="1"> 1</label>
+                                <label><input type="radio" name="horror-c-4" value="2"> 2</label>
+                                <label><input type="radio" name="horror-c-4" value="3"> 3</label>
+                                <label><input type="radio" name="horror-c-4" value="4"> 4</label>
+                                <label><input type="radio" name="horror-c-4" value="5"> 5</label>
+                            </div>
+                            <label for="horror-c-5">(5). I keep emergency numbers memorized just in case I am thrown to a scary place.</label>
+                            <div>
+                                <label><input type="radio" name="horror-c-5" value="1"> 1</label>
+                                <label><input type="radio" name="horror-c-5" value="2"> 2</label>
+                                <label><input type="radio" name="horror-c-5" value="3"> 3</label>
+                                <label><input type="radio" name="horror-c-5" value="4"> 4</label>
+                                <label><input type="radio" name="horror-c-5" value="5"> 5</label>
+                            </div>
+                        </div>
+                    </fieldset>
+                    <fieldset class="trait-section" id="horror-extraversion">
+                        <legend>Extraversion - ( -_-) </legend>
+                        <div class="question">
+                            <label for="horror-e-1">(1). I enjoy horror scenes set in loud, public places (like festivals, concerts, or parties) where there's a lot of people.</label>
+                            <div>
+                                <label><input type="radio" name="horror-e-1" value="1"> 1</label>
+                                <label><input type="radio" name="horror-e-1" value="2"> 2</label>
+                                <label><input type="radio" name="horror-e-1" value="3"> 3</label>
+                                <label><input type="radio" name="horror-e-1" value="4"> 4</label>
+                                <label><input type="radio" name="horror-e-1" value="5"> 5</label>
+                            </div>
+                            <label for="horror-e-2">(2).I like horror anime that features a cast of outgoing or loud characters instead of the quiet type.</label>
+                            <div>
+                                <label><input type="radio" name="horror-e-2" value="1"> 1</label>
+                                <label><input type="radio" name="horror-e-2" value="2"> 2</label>
+                                <label><input type="radio" name="horror-e-2" value="3"> 3</label>
+                                <label><input type="radio" name="horror-e-2" value="4"> 4</label>
+                                <label><input type="radio" name="horror-e-2" value="5"> 5</label>
+                            </div>
+                            <label for="horror-e-3">(3). I like it when characters fill silence with chatter, even when it attracts danger.</label>
+                            <div>
+                                <label><input type="radio" name="horror-e-3" value="1"> 1</label>
+                                <label><input type="radio" name="horror-e-3" value="2"> 2</label>
+                                <label><input type="radio" name="horror-e-3" value="3"> 3</label>
+                                <label><input type="radio" name="horror-e-3" value="4"> 4</label>
+                                <label><input type="radio" name="horror-e-3" value="5"> 5</label>
+                            </div>
+                            <label for="horror-e-4">(4). I enjoy scenes where characters argue, banter, or express strong emotions in intense moments.</label>
+                            <div>
+                                <label><input type="radio" name="horror-e-4" value="1"> 1</label>
+                                <label><input type="radio" name="horror-e-4" value="2"> 2</label>
+                                <label><input type="radio" name="horror-e-4" value="3"> 3</label>
+                                <label><input type="radio" name="horror-e-4" value="4"> 4</label>
+                                <label><input type="radio" name="horror-e-4" value="5"> 5</label>
+                            </div>
+                            <label for="horror-e-5">(5). I love it when characters express fear through yelling/crying rather than freezing (e.g., Demon Slayer's Zenitsu)</label>
+                            <div>
+                                <div class="question-image">
+                                <img src="https://www.gifcen.com/wp-content/uploads/2021/08/-19.gif" style="max-width: 100%; height: auto;">
+                            </div>
+                            <div>
+                                <label><input type="radio" name="horror-e-5" value="1"> 1</label>
+                                <label><input type="radio" name="horror-e-5" value="2"> 2</label>
+                                <label><input type="radio" name="horror-e-5" value="3"> 3</label>
+                                <label><input type="radio" name="horror-e-5" value="4"> 4</label>
+                                <label><input type="radio" name="horror-e-5" value="5"> 5</label>
+                            </div>
+                        </div>
+                    </fieldset>
+                    <fieldset class="trait-section" id="horror-agreeableness">
+                        <legend>Agreeableness - (Teamwork, etc) </legend>
+                        <div class="question">
+                            <label for="horror-a-1">(1). I prefer stories where characters try to reason with or sympathize with monsters/ghosts rather than just defeating them.</label>
+                            <div>
+                                <label><input type="radio" name="horror-a-1" value="1"> 1</label>
+                                <label><input type="radio" name="horror-a-1" value="2"> 2</label>
+                                <label><input type="radio" name="horror-a-1" value="3"> 3</label>
+                                <label><input type="radio" name="horror-a-1" value="4"> 4</label>
+                                <label><input type="radio" name="horror-a-1" value="5"> 5</label>
+                            </div>
+                            <label for="horror-a-2">(2).I like horror anime that features a cast of outgoing or loud characters instead of the quiet type.</label>
+                            <div>
+                                <label><input type="radio" name="horror-a-2" value="1"> 1</label>
+                                <label><input type="radio" name="horror-a-2" value="2"> 2</label>
+                                <label><input type="radio" name="horror-a-2" value="3"> 3</label>
+                                <label><input type="radio" name="horror-a-2" value="4"> 4</label>
+                                <label><input type="radio" name="horror-a-2" value="5"> 5</label>
+                            </div>
+                            <label for="horror-a-3">(3). I enjoy stories where characters trust suspicious newcomers quickly, even if others warn them against it.</label>
+                            <div>
+                                <label><input type="radio" name="horror-a-3" value="1"> 1</label>
+                                <label><input type="radio" name="horror-a-3" value="2"> 2</label>
+                                <label><input type="radio" name="horror-a-3" value="3"> 3</label>
+                                <label><input type="radio" name="horror-a-3" value="4"> 4</label>
+                                <label><input type="radio" name="horror-a-3" value="5"> 5</label>
+                            </div>
+                            <label for="horror-a-4">(4). I prefer defeating the monster alongside my friends, if didn't come alone.</label>
+                            <div>
+                                <label><input type="radio" name="horror-a-4" value="1"> 1</label>
+                                <label><input type="radio" name="horror-a-4" value="2"> 2</label>
+                                <label><input type="radio" name="horror-a-4" value="3"> 3</label>
+                                <label><input type="radio" name="horror-a-4" value="4"> 4</label>
+                                <label><input type="radio" name="horror-a-4" value="5"> 5</label>
+                            </div>
+                            <label for="horror-a-5">(5).I feel uneasy when protagonists make cold, ruthless choices to survive.  </label>
+                            <div>
+                                <label><input type="radio" name="horror-a-5" value="1"> 1</label>
+                                <label><input type="radio" name="horror-a-5" value="2"> 2</label>
+                                <label><input type="radio" name="horror-a-5" value="3"> 3</label>
+                                <label><input type="radio" name="horror-a-5" value="4"> 4</label>
+                                <label><input type="radio" name="horror-a-5" value="5"> 5</label>
+                            </div>
+                        </div>
+                    </fieldset>
+                    <fieldset class="trait-section" id="horror-neuroticism">
+                        <legend>Neuroticism - (Dark Theme, Emotional Instability) </legend>
+                        <div class="question">
+                            <label for="horror-n-1">(1). I resonate with characters who spiral emotionally after losing someone important. (e.g., Uzumaki's Shuichi after losing his father to the spiral)</label> 
+                            <div class="question-image">
+                                <img src="https://i.ytimg.com/vi/HJ9pe1I63Ho/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLAQC2ICBUNPT8zgWedwOae0_Drafg" style="max-width: 100%; height: auto;">
+                            </div>
+                            <div>
+                                <label><input type="radio" name="horror-n-1" value="1"> 1</label>
+                                <label><input type="radio" name="horror-n-1" value="2"> 2</label>
+                                <label><input type="radio" name="horror-n-1" value="3"> 3</label>
+                                <label><input type="radio" name="horror-n-1" value="4"> 4</label>
+                                <label><input type="radio" name="horror-n-1" value="5"> 5</label>
+                            </div>
+                            <label for="horror-n-2">(2). I feel uneasy when characters vomit, shake, or faint when something scary happens.</label>
+                            <div>
+                                <label><input type="radio" name="horror-n-2" value="1"> 1</label>
+                                <label><input type="radio" name="horror-n-2" value="2"> 2</label>
+                                <label><input type="radio" name="horror-n-2" value="3"> 3</label>
+                                <label><input type="radio" name="horror-n-2" value="4"> 4</label>
+                                <label><input type="radio" name="horror-n-2" value="5"> 5</label>
+                            </div>
+                            <label for="horror-n-3">(3). I can relate to characters who break down under pressure, even when they try to stay strong.</label>
+                            <div>
+                                <label><input type="radio" name="horror-n-3" value="1"> 1</label>
+                                <label><input type="radio" name="horror-n-3" value="2"> 2</label>
+                                <label><input type="radio" name="horror-n-3" value="3"> 3</label>
+                                <label><input type="radio" name="horror-n-3" value="4"> 4</label>
+                                <label><input type="radio" name="horror-n-3" value="5"> 5</label>
+                            </div>
+                            <label for="horror-n-4">(4). Even in fiction, I can't help but carry the emotional weight of tragic outcomes. </label>
+                            <div>
+                                <label><input type="radio" name="horror-n-4" value="1"> 1</label>
+                                <label><input type="radio" name="horror-n-4" value="2"> 2</label>
+                                <label><input type="radio" name="horror-n-4" value="3"> 3</label>
+                                <label><input type="radio" name="horror-n-4" value="4"> 4</label>
+                                <label><input type="radio" name="horror-n-4" value="5"> 5</label>
+                            </div>
+                            <label for="horror-n-5">(5). I feel tension when characters must choose between saving one person or saving many.  </label>
+                            <div>
+                                <label><input type="radio" name="horror-n-5" value="1"> 1</label>
+                                <label><input type="radio" name="horror-n-5" value="2"> 2</label>
+                                <label><input type="radio" name="horror-n-5" value="3"> 3</label>
+                                <label><input type="radio" name="horror-n-5" value="4"> 4</label>
+                                <label><input type="radio" name="horror-n-5" value="5"> 5</label>
+                            </div>
+                        </div>
+                    </fieldset>
+                    
+                   
+                    <p>Why do you like the Horror genre?</p>
+                    <textarea name="horror-reason" rows="3"></textarea>
+                </div>
+
+                
+                <div id="Romance-Genre" style="display: none;">
+                    <h3>Romance Genre</h3>
+                    
+                    <fieldset class="trait-section" id="romance-openness">
+                        <legend>Openness to Experience</legend>
+                        <div class="question">
+                            <label for="romance-o-1">(1). I enjoy romance anime where love develops in unconventional ways (e.g., Inuyasha)</label>
+                            <div class="question-image">
+                                <img src="https://static.toiimg.com/thumb/msid-111490344,width-400,resizemode-4/111490344.jpg" style="max-width: 100%; height: auto;">
+                            </div>
+                            <div>
+                                <label><input type="radio" name="romance-o-1" value="1"> 1</label>
+                                <label><input type="radio" name="romance-o-1" value="2"> 2</label>
+                                <label><input type="radio" name="romance-o-1" value="3"> 3</label>
+                                <label><input type="radio" name="romance-o-1" value="4"> 4</label>
+                                <label><input type="radio" name="romance-o-1" value="5"> 5</label>
+                            </div>
+                            <label for="romance-o-2">(2). I like ambiguous characters who grow through love.</label>
+                            <div>
+                                <label><input type="radio" name="romance-o-2" value="1"> 1</label>
+                                <label><input type="radio" name="romance-o-2" value="2"> 2</label>
+                                <label><input type="radio" name="romance-o-2" value="3"> 3</label>
+                                <label><input type="radio" name="romance-o-2" value="4"> 4</label>
+                                <label><input type="radio" name="romance-o-2" value="5"> 5</label>
+                            </div>
+                            <label for="romance-o-3">(3). I find non-traditional pairings more compelling than perfect couples (e.g., My Love Story). </label>
+                            <div class="question-image">
+                                <img src="https://www.anime-evo.net/wp-content/uploads/2015/04/delish.png" style="max-width: 100%; height: auto;">
+                            </div>
+                            <div>
+                                <label><input type="radio" name="romance-o-3" value="1"> 1</label>
+                                <label><input type="radio" name="romance-o-3" value="2"> 2</label>
+                                <label><input type="radio" name="romance-o-3" value="3"> 3</label>
+                                <label><input type="radio" name="romance-o-3" value="4"> 4</label>
+                                <label><input type="radio" name="romance-o-3" value="5"> 5</label>
+                            </div>
+                            <label for="romance-o-4">(4). I enjoy romance that explores the complexities of love over the cliche "boy-meets-girl".</label>
+                            <div>
+                                <label><input type="radio" name="romance-o-4" value="1"> 1</label>
+                                <label><input type="radio" name="romance-o-4" value="2"> 2</label>
+                                <label><input type="radio" name="romance-o-4" value="3"> 3</label>
+                                <label><input type="radio" name="romance-o-4" value="4"> 4</label>
+                                <label><input type="radio" name="romance-o-4" value="5"> 5</label>
+                            </div>
+                            <label for="romance-o-5">(5). I prefer more on romances that prioritize personal growth over happy endings.</label>
+                            <div>
+                                <label><input type="radio" name="romance-o-5" value="1"> 1</label>
+                                <label><input type="radio" name="romance-o-5" value="2"> 2</label>
+                                <label><input type="radio" name="romance-o-5" value="3"> 3</label>
+                                <label><input type="radio" name="romance-o-5" value="4"> 4</label>
+                                <label><input type="radio" name="romance-o-5" value="5"> 5</label>
+                            </div>
+                        </div>
+                    </fieldset>
+                    <fieldset class="trait-section" id="romance-conscientiousness">
+                        <legend>Conscientiousness - (Ideals)</legend>
+                        <div class="question">
+                            <label for="romance-c-1">(1). I find it fun and sweet when a character plans a date meticulously (e.g., Kaguya-sama: Love is War's Kaguya and Shirogane)</label>
+                            <div class="question-image">
+                                <img src="https://images.squarespace-cdn.com/content/v1/5b23e822f79392038cbd486c/b9580302-91f5-4350-abb2-79939716d10c/giphy+%281%29.gif" style="max-width: 100%; height: auto;">
+                            </div>
+                            <div>
+                                <label><input type="radio" name="romance-c-1" value="1"> 1</label>
+                                <label><input type="radio" name="romance-c-1" value="2"> 2</label>
+                                <label><input type="radio" name="romance-c-1" value="3"> 3</label>
+                                <label><input type="radio" name="romance-c-1" value="4"> 4</label>
+                                <label><input type="radio" name="romance-c-1" value="5"> 5</label>
+                            </div>
+                            <label for="romance-c-2">(2). I find it interesting when characters have strict personal rules about romance (e.g., OreGairu's Hachiman)</label>
+                            <div class="question-image">
+                                <img src="https://i.pinimg.com/564x/f7/7f/a8/f77fa8533899717345732e9f42942f08.jpg" style="max-width: 100%; height: auto;">
+                            </div>
+                            <div>
+                                <label><input type="radio" name="romance-c-2" value="1"> 1</label>
+                                <label><input type="radio" name="romance-c-2" value="2"> 2</label>
+                                <label><input type="radio" name="romance-c-2" value="3"> 3</label>
+                                <label><input type="radio" name="romance-c-2" value="4"> 4</label>
+                                <label><input type="radio" name="romance-c-2" value="5"> 5</label>
+                            </div>
+                            <label for="romance-c-3">(3). I love it when the other couple takes the initiative to resolve misunderstandings quickly. (e.g., Toradora)) </label>
+                            <div class="question-image">
+                                <img src="https://static1.srcdn.com/wordpress/wp-content/uploads/2021/04/Toradora-S1E24.jpg" style="max-width: 100%; height: auto;">
+                            </div>
+                            <div>
+                                <label><input type="radio" name="romance-c-3" value="1"> 1</label>
+                                <label><input type="radio" name="romance-c-3" value="2"> 2</label>
+                                <label><input type="radio" name="romance-c-3" value="3"> 3</label>
+                                <label><input type="radio" name="romance-c-3" value="4"> 4</label>
+                                <label><input type="radio" name="romance-c-3" value="5"> 5</label>
+                            </div>
+                            <label for="romance-c-4">(4). I find it interesting when love is viewed as a partnership requiring mutual effort, not just passion (e.g., Spice and Wolf)</label>
+                            <div class="question-image">
+                                <img src="https://www.animenewsnetwork.com/thumbnails/crop1200x630gD4/cms/episode-review.4/211568/screenshot_20240605_135358_firefox.jpg" style="max-width: 100%; height: auto;">
+                            </div>
+                            <div>
+                                <label><input type="radio" name="romance-c-4" value="1"> 1</label>
+                                <label><input type="radio" name="romance-c-4" value="2"> 2</label>
+                                <label><input type="radio" name="romance-c-4" value="3"> 3</label>
+                                <label><input type="radio" name="romance-c-4" value="4"> 4</label>
+                                <label><input type="radio" name="romance-c-4" value="5"> 5</label>
+                            </div>
+                            <label for="romance-c-5">(5). I enjoy love stories where characters try to balance romance with other life responsibilities. </label>
+                            <div>
+                                <label><input type="radio" name="romance-c-5" value="1"> 1</label>
+                                <label><input type="radio" name="romance-c-5" value="2"> 2</label>
+                                <label><input type="radio" name="romance-c-5" value="3"> 3</label>
+                                <label><input type="radio" name="romance-c-5" value="4"> 4</label>
+                                <label><input type="radio" name="romance-c-5" value="5"> 5</label>
+                            </div>
+                        </div>
+                    </fieldset>
+                    <fieldset class="trait-section" id="romance-extraversion">
+                        <legend>Extraversion </legend>
+                        <div class="question">
+                            <label for="romance-e-1">(1). I enjoy characters who make bold or public confessions of love without hesitation. (e.g., Full Metal Panic) </label>
+                            <div class="question-image">
+                                <img src="https://i.imgur.com/Ge5Fxu5.png" style="max-width: 100%; height: auto;">
+                            </div>
+                            <div>
+                                <label><input type="radio" name="romance-e-1" value="1"> 1</label>
+                                <label><input type="radio" name="romance-e-1" value="2"> 2</label>
+                                <label><input type="radio" name="romance-e-1" value="3"> 3</label>
+                                <label><input type="radio" name="romance-e-1" value="4"> 4</label>
+                                <label><input type="radio" name="romance-e-1" value="5"> 5</label>
+                            </div>
+                            <label for="romance-e-2">(2). I prefer a love confession to be done in front of a crowd (</label>
+                            <div>
+                                <label><input type="radio" name="romance-e-2" value="1"> 1</label>
+                                <label><input type="radio" name="romance-e-2" value="2"> 2</label>
+                                <label><input type="radio" name="romance-e-2" value="3"> 3</label>
+                                <label><input type="radio" name="romance-e-2" value="4"> 4</label>
+                                <label><input type="radio" name="romance-e-2" value="5"> 5</label>
+                            </div>
+                            <label for="romance-e-3">(3). I prefer characters who fall in love quickly </label>
+                            <div>
+                                <label><input type="radio" name="romance-e-3" value="1"> 1</label>
+                                <label><input type="radio" name="romance-e-3" value="2"> 2</label>
+                                <label><input type="radio" name="romance-e-3" value="3"> 3</label>
+                                <label><input type="radio" name="romance-e-3" value="4"> 4</label>
+                                <label><input type="radio" name="romance-e-3" value="5"> 5</label>
+                            </div>
+                            <label for="romance-e-4">(4). I’m drawn to romance anime where the main couple is loud, expressive, and not afraid to argue or tease each other. (e.g., Nisekoi)</label>
+                            <div class="question-image">
+                                <img src="https://i.imgur.com/J9W3I0I.gif" style="max-width: 100%; height: auto;">
+                            </div>
+                            <div>
+                                <label><input type="radio" name="romance-e-4" value="1"> 1</label>
+                                <label><input type="radio" name="romance-e-4" value="2"> 2</label>
+                                <label><input type="radio" name="romance-e-4" value="3"> 3</label>
+                                <label><input type="radio" name="romance-e-4" value="4"> 4</label>
+                                <label><input type="radio" name="romance-e-4" value="5"> 5</label>
+                            </div>
+                            <label for="romance-e-5">(5). I'm more into couples who joke, bicker, and banter than quiet, brooding types.</label>
+                            <div>
+                                <label><input type="radio" name="romance-e-5" value="1"> 1</label>
+                                <label><input type="radio" name="romance-e-5" value="2"> 2</label>
+                                <label><input type="radio" name="romance-e-5" value="3"> 3</label>
+                                <label><input type="radio" name="romance-e-5" value="4"> 4</label>
+                                <label><input type="radio" name="romance-e-5" value="5"> 5</label>
+                            </div>
+                        </div>
+                    </fieldset>
+                    <fieldset class="trait-section" id="romance-agreeableness">
+                        <legend> Agreeableness </legend>
+                        <div class="question">
+                            <label for="romance-a-1">(1). I tend to like characters who put their significant other's (SO) needs above their own, even at their own cost. (e.g., My Love Story) </label>
+                            <div class="question-image">
+                                <img src="https://64.media.tumblr.com/7cc4ae3533edae222b371358a2965986/tumblr_nv3n1rXBOs1tgx5s7o1_500.gif" style="max-width: 100%; height: auto;">
+                            </div>
+                            <div>
+                                <label><input type="radio" name="romance-a-1" value="1"> 1</label>
+                                <label><input type="radio" name="romance-a-1" value="2"> 2</label>
+                                <label><input type="radio" name="romance-a-1" value="3"> 3</label>
+                                <label><input type="radio" name="romance-a-1" value="4"> 4</label>
+                                <label><input type="radio" name="romance-a-1" value="5"> 5</label>
+                            </div>
+                            <label for="romance-a-2">(2). It's sweet when they forgive their partner's mistakes easily, even serious ones. </label>
+                            <div>
+                                <label><input type="radio" name="romance-a-2" value="1"> 1</label>
+                                <label><input type="radio" name="romance-a-2" value="2"> 2</label>
+                                <label><input type="radio" name="romance-a-2" value="3"> 3</label>
+                                <label><input type="radio" name="romance-a-2" value="4"> 4</label>
+                                <label><input type="radio" name="romance-a-2" value="5"> 5</label>
+                            </div>
+                            <label for="romance-a-3">(3). I believe in showing patience and understanding, even when my partner is going through difficult times. </label>
+                            <div>
+                                <label><input type="radio" name="romance-a-3" value="1"> 1</label>
+                                <label><input type="radio" name="romance-a-3" value="2"> 2</label>
+                                <label><input type="radio" name="romance-a-3" value="3"> 3</label>
+                                <label><input type="radio" name="romance-a-3" value="4"> 4</label>
+                                <label><input type="radio" name="romance-a-3" value="5"> 5</label>
+                            </div>
+                            <label for="romance-a-4">(4). I believe that love cannot be forced. </label>
+                            <div>
+                                <label><input type="radio" name="romance-a-4" value="1"> 1</label>
+                                <label><input type="radio" name="romance-a-4" value="2"> 2</label>
+                                <label><input type="radio" name="romance-a-4" value="3"> 3</label>
+                                <label><input type="radio" name="romance-a-4" value="4"> 4</label>
+                                <label><input type="radio" name="romance-a-4" value="5"> 5</label>
+                            </div>
+                            <label for="romance-a-5">(5). When love confession doesn't go according to plan, try again until you succeed.</label>
+                            <div>
+                                <label><input type="radio" name="romance-a-5" value="1"> 1</label>
+                                <label><input type="radio" name="romance-a-5" value="2"> 2</label>
+                                <label><input type="radio" name="romance-a-5" value="3"> 3</label>
+                                <label><input type="radio" name="romance-a-5" value="4"> 4</label>
+                                <label><input type="radio" name="romance-a-5" value="5"> 5</label>
+                            </div>
+                        </div>
+                    </fieldset>
+                    <fieldset class="trait-section" id="romance-neuroticism">
+                        <legend> Neuroticism - (Emotional) </legend>
+                        <div class="question">
+                            <label for="romance-n-1">(1). I am terrified of losing the people I care about, and this fear sometimes controls my actions. </label>
+                            <div>
+                                <label><input type="radio" name="romance-n-1" value="1"> 1</label>
+                                <label><input type="radio" name="romance-n-1" value="2"> 2</label>
+                                <label><input type="radio" name="romance-n-1" value="3"> 3</label>
+                                <label><input type="radio" name="romance-n-1" value="4"> 4</label>
+                                <label><input type="radio" name="romance-n-1" value="5"> 5</label>
+                            </div>
+                            <label for="romance-n-2">(2). Past relationship failures affect you negatively, letting it sabotage current relationships. (</label>
+                            <div>
+                                <label><input type="radio" name="romance-n-2" value="1"> 1</label>
+                                <label><input type="radio" name="romance-n-2" value="2"> 2</label>
+                                <label><input type="radio" name="romance-n-2" value="3"> 3</label>
+                                <label><input type="radio" name="romance-n-2" value="4"> 4</label>
+                                <label><input type="radio" name="romance-n-2" value="5"> 5</label>
+                            </div>
+                            <label for="romance-n-3">(3). I'll take the bullet as long as it saves the one I love. (e.g., Re:Zero's Subaru's deaths) </label>
+                            <div class="question-image">
+                                <img src="https://static0.gamerantimages.com/wordpress/wp-content/uploads/2025/03/rezero-subaru-reunites-with-beatrice.jpg" style="max-width: 100%; height: auto;">
+                            </div>
+                            <div>
+                                <label><input type="radio" name="romance-n-3" value="1"> 1</label>
+                                <label><input type="radio" name="romance-n-3" value="2"> 2</label>
+                                <label><input type="radio" name="romance-n-3" value="3"> 3</label>
+                                <label><input type="radio" name="romance-n-3" value="4"> 4</label>
+                                <label><input type="radio" name="romance-n-3" value="5"> 5</label>
+                            </div>
+                            <label for="romance-n-4">(4). You interpret neutral responses as rejection. </label>
+                            <div>
+                                <label><input type="radio" name="romance-n-4" value="1"> 1</label>
+                                <label><input type="radio" name="romance-n-4" value="2"> 2</label>
+                                <label><input type="radio" name="romance-n-4" value="3"> 3</label>
+                                <label><input type="radio" name="romance-n-4" value="4"> 4</label>
+                                <label><input type="radio" name="romance-n-4" value="5"> 5</label>
+                            </div>
+                            <label for="romance-n-5">(5). I often feel like I’m walking on a tightrope in my relationships, always afraid that one misstep could cause everything to fall apart. </label>
+                            <div>
+                                <label><input type="radio" name="romance-n-5" value="1"> 1</label>
+                                <label><input type="radio" name="romance-n-5" value="2"> 2</label>
+                                <label><input type="radio" name="romance-n-5" value="3"> 3</label>
+                                <label><input type="radio" name="romance-n-5" value="4"> 4</label>
+                                <label><input type="radio" name="romance-n-5" value="5"> 5</label>
+                            </div>
+                        </div>
+                    </fieldset>
+                    
+                    <p>Why do you like the Romance genre?</p>
+                    <textarea name="romance-reason" rows="3"></textarea>
+                </div>
+
+                
+                <div id="SciFi-Genre" style="display: none;">
+                    <h3>Sci-Fi Genre</h3>
+                    
+                    <fieldset class="trait-section" id="scifi-openness">
+                        <legend>Openness to Experience</legend>
+                        <div class="question">
+                            <label for="scifi-o-1">(1). I like sci-fi stories that question the nature of reality or human identity.</label>
+                            <div>
+                                <label><input type="radio" name="scifi-o-1" value="1"> 1</label>
+                                <label><input type="radio" name="scifi-o-1" value="2"> 2</label>
+                                <label><input type="radio" name="scifi-o-1" value="3"> 3</label>
+                                <label><input type="radio" name="scifi-o-1" value="4"> 4</label>
+                                <label><input type="radio" name="scifi-o-1" value="5"> 5</label>
+                            </div>
+                            <label for="scifi-o-2">(2). I love watching sci-fi because it is not so distant anymore. </label>
+                            <div>
+                                <label><input type="radio" name="scifi-o-2" value="1"> 1</label>
+                                <label><input type="radio" name="scifi-o-2" value="2"> 2</label>
+                                <label><input type="radio" name="scifi-o-2" value="3"> 3</label>
+                                <label><input type="radio" name="scifi-o-2" value="4"> 4</label>
+                                <label><input type="radio" name="scifi-o-2" value="5"> 5</label>
+                            </div>
+                            <label for="scifi-o-3">(3). I feel like most sci-fi is set in a dystopian world.</label>
+                            <div>
+                                <label><input type="radio" name="scifi-o-3" value="1"> 1</label>
+                                <label><input type="radio" name="scifi-o-3" value="2"> 2</label>
+                                <label><input type="radio" name="scifi-o-3" value="3"> 3</label>
+                                <label><input type="radio" name="scifi-o-3" value="4"> 4</label>
+                                <label><input type="radio" name="scifi-o-3" value="5"> 5</label>
+                            </div>
+                            <label for="scifi-o-4">(4). The more complex the world of sci-fi is, the better for me. </label>
+                            <div>
+                                <label><input type="radio" name="scifi-o-4" value="1"> 1</label>
+                                <label><input type="radio" name="scifi-o-4" value="2"> 2</label>
+                                <label><input type="radio" name="scifi-o-4" value="3"> 3</label>
+                                <label><input type="radio" name="scifi-o-4" value="4"> 4</label>
+                                <label><input type="radio" name="scifi-o-4" value="5"> 5</label>
+                            </div>
+                            <label for="scifi-o-5">(5). I often imagine myself living in a future world with advanced science and new rules.</label>
+                            <div>
+                                <label><input type="radio" name="scifi-o-5" value="1"> 1</label>
+                                <label><input type="radio" name="scifi-o-5" value="2"> 2</label>
+                                <label><input type="radio" name="scifi-o-5" value="3"> 3</label>
+                                <label><input type="radio" name="scifi-o-5" value="4"> 4</label>
+                                <label><input type="radio" name="scifi-o-5" value="5"> 5</label>
+                            </div>
+                        </div>
+                    </fieldset>
+                    <fieldset class="trait-section" id="scifi-conscientiousness">
+                        <legend>Conscientiouness (Scientific, Structured)</legend>
+                        <div class="question">
+                            <label for="scifi-c-1">(1). Studying the new laws established in either a utopia or a dystopia is paramount to staying competent in daily life.</label>
+                            <div>
+                                <label><input type="radio" name="scifi-c-1" value="1"> 1</label>
+                                <label><input type="radio" name="scifi-c-1" value="2"> 2</label>
+                                <label><input type="radio" name="scifi-c-1" value="3"> 3</label>
+                                <label><input type="radio" name="scifi-c-1" value="4"> 4</label>
+                                <label><input type="radio" name="scifi-c-1" value="5"> 5</label>
+                            </div>
+                            <label for="scifi-c-2">(2). I love a character who is focused on his goals, research, and experimentations (e.g., Steins Gate) </label>
+                            <div class="question-image">
+                                <img src="https://i.pinimg.com/originals/b3/2f/d2/b32fd2ff3a18f76a34f9cbd4bce64c00.gif" style="max-width: 100%; height: auto;">
+                            </div>
+                            <div>
+                                <label><input type="radio" name="scifi-c-2" value="1"> 1</label>
+                                <label><input type="radio" name="scifi-c-2" value="2"> 2</label>
+                                <label><input type="radio" name="scifi-c-2" value="3"> 3</label>
+                                <label><input type="radio" name="scifi-c-2" value="4"> 4</label>
+                                <label><input type="radio" name="scifi-c-2" value="5"> 5</label>
+                            </div>
+                            <label for="scifi-c-3">(3). I prefer it when sci-fi shows depict structured societies, even if they’re dystopian. (e.g., Psycho Pass) </label>
+                            <div class="question-image">
+                                <img src="https://i.pinimg.com/originals/9b/33/bc/9b33bc116701fa908b6df00ddd9bf4a1.gif" style="max-width: 100%; height: auto;">
+                            </div>
+                            <div>
+                                <label><input type="radio" name="scifi-c-3" value="1"> 1</label>
+                                <label><input type="radio" name="scifi-c-3" value="2"> 2</label>
+                                <label><input type="radio" name="scifi-c-3" value="3"> 3</label>
+                                <label><input type="radio" name="scifi-c-3" value="4"> 4</label>
+                                <label><input type="radio" name="scifi-c-3" value="5"> 5</label>
+                            </div>
+                            <label for="scifi-c-4">(4). I like characters that prepare for any futuristic scenario. </label>
+                            <div>
+                                <label><input type="radio" name="scifi-c-4" value="1"> 1</label>
+                                <label><input type="radio" name="scifi-c-4" value="2"> 2</label>
+                                <label><input type="radio" name="scifi-c-4" value="3"> 3</label>
+                                <label><input type="radio" name="scifi-c-4" value="4"> 4</label>
+                                <label><input type="radio" name="scifi-c-4" value="5"> 5</label>
+                            </div>
+                            <label for="scifi-c-5">(5). I love characters who will dig for the truth and fix a dystopian world, even if it is close to impossible. </label>
+                            <div>
+                                <label><input type="radio" name="scifi-c-5" value="1"> 1</label>
+                                <label><input type="radio" name="scifi-c-5" value="2"> 2</label>
+                                <label><input type="radio" name="scifi-c-5" value="3"> 3</label>
+                                <label><input type="radio" name="scifi-c-5" value="4"> 4</label>
+                                <label><input type="radio" name="scifi-c-5" value="5"> 5</label>
+                            </div>
+                        </div>
+                    </fieldset>
+                    <fieldset class="trait-section" id="scifi-extraversion">
+                        <legend>Extraversion</legend>
+                        <div class="question">
+                            <label for="scifi-e-1">(1). I prefer practicality over flashiness when it comes to mecha robots. </label>
+                            <div>
+                                <label><input type="radio" name="scifi-e-1" value="1"> 1</label>
+                                <label><input type="radio" name="scifi-e-1" value="2"> 2</label>
+                                <label><input type="radio" name="scifi-e-1" value="3"> 3</label>
+                                <label><input type="radio" name="scifi-e-1" value="4"> 4</label>
+                                <label><input type="radio" name="scifi-e-1" value="5"> 5</label>
+                            </div>
+                            <label for="scifi-e-2">(2). I'd prefer to be the first to meet and talk to aliens in a sci-fi world scenario. </label>
+                            <div>
+                                <label><input type="radio" name="scifi-e-2" value="1"> 1</label>
+                                <label><input type="radio" name="scifi-e-2" value="2"> 2</label>
+                                <label><input type="radio" name="scifi-e-2" value="3"> 3</label>
+                                <label><input type="radio" name="scifi-e-2" value="4"> 4</label>
+                                <label><input type="radio" name="scifi-e-2" value="5"> 5</label>
+                            </div>
+                            <label for="scifi-e-3">(3). Characters who talk back to oppressive systems or challenge authority out loud are fun to watch.</label>
+                            <div>
+                                <label><input type="radio" name="scifi-e-3" value="1"> 1</label>
+                                <label><input type="radio" name="scifi-e-3" value="2"> 2</label>
+                                <label><input type="radio" name="scifi-e-3" value="3"> 3</label>
+                                <label><input type="radio" name="scifi-e-3" value="4"> 4</label>
+                                <label><input type="radio" name="scifi-e-3" value="5"> 5</label>
+                            </div>
+                            <label for="scifi-e-4">(4). I enjoy shows where characters constantly interact—argue, bond, or clash—even in closed or artificial environments. </label>
+                            <div>
+                                <label><input type="radio" name="scifi-e-4" value="1"> 1</label>
+                                <label><input type="radio" name="scifi-e-4" value="2"> 2</label>
+                                <label><input type="radio" name="scifi-e-4" value="3"> 3</label>
+                                <label><input type="radio" name="scifi-e-4" value="4"> 4</label>
+                                <label><input type="radio" name="scifi-e-4" value="5"> 5</label>
+                            </div>
+                            <label for="scifi-e-5">(5). Social dynamics in dystopias (like betrayal, friendship, or romance) are more interesting to me than the tech itself. </label>
+                            <div>
+                                <label><input type="radio" name="scifi-e-5" value="1"> 1</label>
+                                <label><input type="radio" name="scifi-e-5" value="2"> 2</label>
+                                <label><input type="radio" name="scifi-e-5" value="3"> 3</label>
+                                <label><input type="radio" name="scifi-e-5" value="4"> 4</label>
+                                <label><input type="radio" name="scifi-e-5" value="5"> 5</label>
+                            </div>
+                        </div>
+                    </fieldset>
+                    <fieldset class="trait-section" id="scifi-agreeableness">
+                        <legend>Agreeableness</legend>
+                        <div class="question">
+                            <label for="scifi-a-1">(1). I feel for characters who treat robots or AIs with kindness, even when everyone else sees them as tools. (e.g., Plastic Memories)</label>
+                            <div class="question-image">
+                                <img src="https://pa1.aminoapps.com/6671/77d5e98268a9fa67fa4cd45df921adb1eaf9742c_hq.gif" style="max-width: 100%; height: auto;">
+                            </div>
+                            <div>
+                                <label><input type="radio" name="scifi-a-1" value="1"> 1</label>
+                                <label><input type="radio" name="scifi-a-1" value="2"> 2</label>
+                                <label><input type="radio" name="scifi-a-1" value="3"> 3</label>
+                                <label><input type="radio" name="scifi-a-1" value="4"> 4</label>
+                                <label><input type="radio" name="scifi-a-1" value="5"> 5</label>
+                            </div>
+                            <label for="scifi-a-2">(2).I prefer characters who believe there's good in people—even in dystopias </label>
+                            <div>
+                                <label><input type="radio" name="scifi-a-2" value="1"> 1</label>
+                                <label><input type="radio" name="scifi-a-2" value="2"> 2</label>
+                                <label><input type="radio" name="scifi-a-2" value="3"> 3</label>
+                                <label><input type="radio" name="scifi-a-2" value="4"> 4</label>
+                                <label><input type="radio" name="scifi-a-2" value="5"> 5</label>
+                            </div>
+                            <label for="scifi-a-3">(3). Even when the world is falling apart, I relate to the ones who still care about small acts of kindness.</label>
+                            <div>
+                                <label><input type="radio" name="scifi-a-3" value="1"> 1</label>
+                                <label><input type="radio" name="scifi-a-3" value="2"> 2</label>
+                                <label><input type="radio" name="scifi-a-3" value="3"> 3</label>
+                                <label><input type="radio" name="scifi-a-3" value="4"> 4</label>
+                                <label><input type="radio" name="scifi-a-3" value="5"> 5</label>
+                            </div>
+                            <label for="scifi-e-4">(4). Even in worlds where surveillance is every, I admire characters who still trust people. </label>
+                            <div>
+                                <label><input type="radio" name="scifi-a-4" value="1"> 1</label>
+                                <label><input type="radio" name="scifi-a-4" value="2"> 2</label>
+                                <label><input type="radio" name="scifi-a-4" value="3"> 3</label>
+                                <label><input type="radio" name="scifi-a-4" value="4"> 4</label>
+                                <label><input type="radio" name="scifi-a-4" value="5"> 5</label>
+                            </div>
+                            <label for="scifi-a-5">(5). Even if I knew something sinister was behind a perfect society, I would still follow its rules to keep heaven on earth. </label>
+                            <div>
+                                <label><input type="radio" name="scifi-a-5" value="1"> 1</label>
+                                <label><input type="radio" name="scifi-a-5" value="2"> 2</label>
+                                <label><input type="radio" name="scifi-a-5" value="3"> 3</label>
+                                <label><input type="radio" name="scifi-a-5" value="4"> 4</label>
+                                <label><input type="radio" name="scifi-a-5" value="5"> 5</label>
+                            </div>
+                        </div>
+                    </fieldset>
+                    <fieldset class="trait-section" id="scifi-neuroticism">
+                        <legend>Neuroticism</legend>
+                        <div class="question">
+                            <label for="scifi-n-1">(1). Aliens have destroyed my world, I'll join the resistance and bring the fight to them (e.g., Space Battleship Yamato)</label>
+                            <div class="question-image">
+                                <img src="https://i.gifer.com/7E8.gif" style="max-width: 100%; height: auto;">
+                            </div>
+                            <div>
+                                <label><input type="radio" name="scifi-n-1" value="1"> 1</label>
+                                <label><input type="radio" name="scifi-n-1" value="2"> 2</label>
+                                <label><input type="radio" name="scifi-n-1" value="3"> 3</label>
+                                <label><input type="radio" name="scifi-n-1" value="4"> 4</label>
+                                <label><input type="radio" name="scifi-n-1" value="5"> 5</label>
+                            </div>
+                            <label for="scifi-n-2">(2).I often think about how a single choice could destroy everything, like a butterfly effect I can't control. (e.g, Stein's Gate)</label>
+                            <div class="question-image">
+                                <img src="https://static.wikia.nocookie.net/steins-gate/images/1/17/D-mailAnime.gif/revision/latest?cb=20230718172949" style="max-width: 100%; height: auto;">
+                            </div>
+                            <div>
+                                <label><input type="radio" name="scifi-n-2" value="1"> 1</label>
+                                <label><input type="radio" name="scifi-n-2" value="2"> 2</label>
+                                <label><input type="radio" name="scifi-n-2" value="3"> 3</label>
+                                <label><input type="radio" name="scifi-n-2" value="4"> 4</label>
+                                <label><input type="radio" name="scifi-n-2" value="5"> 5</label>
+                            </div>
+                            <label for="scifi-n-3">(3). When someone loses their identity in a world that constantly rewrites the truth, I feel their fear deeply.</label>
+                            <div>
+                                <label><input type="radio" name="scifi-n-3" value="1"> 1</label>
+                                <label><input type="radio" name="scifi-n-3" value="2"> 2</label>
+                                <label><input type="radio" name="scifi-n-3" value="3"> 3</label>
+                                <label><input type="radio" name="scifi-n-3" value="4"> 4</label>
+                                <label><input type="radio" name="scifi-n-3" value="5"> 5</label>
+                            </div>
+                            <label for="scifi-n-4">(4). I often empathize with characters who are emotionally shattered but still keep going like nothing happened. </label>
+                            <div>
+                                <label><input type="radio" name="scifi-n-4" value="1"> 1</label>
+                                <label><input type="radio" name="scifi-n-4" value="2"> 2</label>
+                                <label><input type="radio" name="scifi-n-4" value="3"> 3</label>
+                                <label><input type="radio" name="scifi-n-4" value="4"> 4</label>
+                                <label><input type="radio" name="scifi-n-4" value="5"> 5</label>
+                            </div>
+                            <label for="scifi-n-5">(5). I relate to characters who act tough but clearly haven't recovered from their past. (e.g., Black Lagoon) </label>
+                            <div class="question-image">
+                                <img src="https://i.gifer.com/14jN.gif" style="max-width: 100%; height: auto;">
+                            </div>
+                            <div>
+                                <label><input type="radio" name="scifi-n-5" value="1"> 1</label>
+                                <label><input type="radio" name="scifi-n-5" value="2"> 2</label>
+                                <label><input type="radio" name="scifi-n-5" value="3"> 3</label>
+                                <label><input type="radio" name="scifi-n-5" value="4"> 4</label>
+                                <label><input type="radio" name="scifi-n-5" value="5"> 5</label>
+                            </div>
+                        </div>
+                    </fieldset>
+                    
+                    <p>Why do you like the Sci-Fi genre?</p>
+                    <textarea name="scifi-reason" rows="3"></textarea>
+                </div>
+
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+
+        
+        <div class="form-section" id="thank-you" style="display: none; text-align: center;">
+            <h2>Thank You!</h2>
+            <p>Your responses have been submitted.</p>
+            <img src="https://gifdb.com/images/thumbnail/kazuma-sato-thank-you-anime-funny-dance-vaqdl5j1387ekr0x.gif" alt="Thank You GIF" style="max-width: 100%; height: auto; margin-top: 20px;">
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
